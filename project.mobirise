@@ -14,8 +14,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Mobirise Mobile Website Builder",
-        "meta_descr": "Free Responsive Website Maker. Create awesome mobile-first websites. Easy and fast - No coding!",
+        "title": "Home",
+        "meta_descr": "Welcome to Elijah Bosley's website",
         "header_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <head> section, right before </head> -->",
         "footer_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <body> section, right before </body> -->"
       },
@@ -845,7 +845,7 @@
     },
     "seniorproject.html": {
       "settings": {
-        "title": ""
+        "title": "Senior Project"
       },
       "components": [
         {
@@ -859,6 +859,9 @@
             },
             ".mbr-navbar__section": {
               "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
             }
           },
           "_name": "ext.menu",
@@ -1622,7 +1625,10 @@
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
             },
-            ".mbr-navbar__section": {}
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
           },
           "_name": "menu",
           "_anchor": "menu-0",
@@ -1806,7 +1812,8 @@
     },
     "pictures.html": {
       "settings": {
-        "title": "Pictures of Titan"
+        "title": "Pictures of Titan",
+        "meta_descr": "Pictures of my desktop"
       },
       "components": [
         {
@@ -1854,6 +1861,9 @@
             },
             ".mbr-navbar__section": {
               "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
             }
           },
           "_name": "ext.menu",
@@ -2128,6 +2138,9 @@
             },
             ".mbr-navbar__section": {
               "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
             }
           },
           "_name": "ext.menu",
@@ -2251,6 +2264,9 @@
             },
             ".mbr-navbar__section": {
               "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
             }
           },
           "_name": "ext.menu",
