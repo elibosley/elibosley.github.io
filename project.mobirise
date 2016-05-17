@@ -1,0 +1,2364 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.8.4",
+    "versionPublish": "2.8.4",
+    "name": "Elijah Bosley",
+    "favicon": "",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Elijah%20Bosley/Documents/GitHub/xenthisx.github.io",
+    "path": "file:///C:/Users/ekbos/OneDrive",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Mobirise Mobile Website Builder",
+        "meta_descr": "Free Responsive Website Maker. Create awesome mobile-first websites. Easy and fast - No coding!",
+        "header_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <head> section, right before </head> -->",
+        "footer_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <body> section, right before </body> -->"
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "menu-0",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-47\">PROJECTS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            ".btn": {
+              "font-size": "20px"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/telephoto1-3872x2178-69.png",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "right",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "Hi, I'm Eli.<br><br>",
+          "text": "Welcome to my website, scroll down to learn more about my projects!",
+          "buttons": "  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-53",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/panorama-4418x878-54.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/imag0102-2688x1520-56.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "ABOUT ME",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>My name is Eli Bosley.&nbsp;</p><p>I study software engineering at the Rochester Institute of Technology. &nbsp;I am passionate about my field and I've done a few cool projects.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_name": "features1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "features1-52",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showHeader": false,
+            "showSubheader": false,
+            "columns": "4",
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": true
+          },
+          "headerAlign": "left",
+          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/github-mark-120px-plus-2-120x120-5.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "https://github.com/XenthisX",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": "on"
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title1": "GITHUB",
+          "caption1": "Check out my Github to see the code I've written for my projects.<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://github.com/XenthisX\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MY GITHUB</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/in-2c-121px-tm-133x121-45.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "https://www.linkedin.com/in/elijahbosley",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title2": "LINKEDIN",
+          "caption2": "Link with me on LinkedIn!<br><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://www.linkedin.com/in/elijahbosley\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MY LINKEDIN</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ic-mail-outline-black-48px-120x120-81.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "mailto:ekbosley@gmail.com?Subject=Hello%20Eli%20Bosley",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title3": "EMAIL",
+          "caption3": "Click the button below to email me!",
+          "button3": "<a data-app-btn=\"true\" href=\"mailto:ekbosley@gmail.com?Subject=Hello%20Eli%20Bosley\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">EMAIL ME</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ic-subtitles-black-48px-125x125-21.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "https://github.com/XenthisX/Resume/blob/0f08002ffb0ac09ae98bd71471b429723e0fdfa6/resume_pdf.pdf",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title4": "RESUME",
+          "caption4": "Click to view my Resume!<br><br>",
+          "button4": "<a data-app-btn=\"true\" href=\"downloads.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">MY RESUME</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<p>Copyright (c) 2016 Elijah Bosley.</p><br><p>Find me on&nbsp;<a href=\"https://github.com/xenthisx\">Github</a>, <a href=\"https://www.linkedin.com/\">Linkedin</a>, or<a href=\"mailto:ekbosley@gmail.com\"> Email Me</a>.</p>"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-47",
+          "_params": {
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/panorama-4418x878-58.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "MY PROJECTS",
+          "meta": "",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-9",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#f97352",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/dsc-0080-3872x2592-24.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "7174N",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>For my Senior Project in High School I designed and built an open-loop watercooled computer, named 7174N.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"titan.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-11",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/panorama-4418x878-78.jpg",
+            "bgColor": "#9365b8",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/imag0004-2688x1520-78.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "SMD-LED CONTROLLER",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "My PC had to be special, so I assembled an Arduino shield for 5050 SMD LED light strips and wrote custom software to control them.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"ledcontroller.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-12",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/img-20160126-215144-cropped-1520x1750-69.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "DOOR LOCK",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>A MiFare based door unlocker, built with an Arduino + NFC-shield,</p><p>and yes, I know it doesn't look pretty.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"doorlock.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        }
+      ]
+    },
+    "titan.html": {
+      "settings": {
+        "title": "7174n",
+        "meta_descr": "Watercooled Desktop"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-6",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Home",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content1-11\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-49",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/computer002web-3644x2429-64.png",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "7174N (TITAN)",
+          "text": "A journey in computer design.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"pictures.html\" data-toolbar=\"-mbrBtnMove\">MORE PICTURES</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"titan.html#content1-11\" data-toolbar=\"-mbrBtnMove\">MORE INFO</a>"
+        },
+        {
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-size": "19px"
+            }
+          },
+          "_anchor": "content1-11",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;<b>7174N </b>(Titan) is the name that I gave to my senior project. While building a computer is fairly straightforward, involving simple slotting of parts into a chassis, Titan was a much more complex project. </p><p>&nbsp;&nbsp;&nbsp;&nbsp;Titan added difficulties of bending rigid PETG tubing and putting distilled water into a closed-loop pump system that I designed myself, as well as challenges in aesthetically pleasing computer design.<br></p>"
+        },
+        {
+          "_name": "features1",
+          "_anchor": "features1-13",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/background-2216x592-95.png",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showHeader": true,
+            "showSubheader": false,
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": true
+          },
+          "headerAlign": "left",
+          "header": "QUICK INFO",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/time-1000x1000-45.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title1": "BUILD TIME:<br><span style=\"font-weight: normal;\"><br>6 MONTHS</span>",
+          "caption1": "Including all research, planning, and construction. This project took a while.<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"pictures.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">VIEW PICTURES</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/processor-1000x1000-81.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title2": "PROCESSING:<br><br><span style=\"font-weight: normal;\">INTEL i7 5820K</span>",
+          "caption2": "Powered by an Intel i7 5820k, overclocked to 4.4 GHz on all 6 physical cores.",
+          "button2": "<a data-app-btn=\"true\" href=\"pcspecs.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">WHAT'S INSIDE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/lightbulb-1000x1000-27.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title3": "LED LIGHTING:<br><br><span style=\"font-weight: normal;\">BRIGHTER THAN 1000 SUNS</span>",
+          "caption3": "A total of one-hundred and fifty 5050-type LED chips, all powered by an Arduino.",
+          "button3": "<a data-app-btn=\"true\" href=\"ledcontroller.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">VIEW MORE INFO</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/cooling-1000x1000-61.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title4": "COOLING<br><br><span style=\"font-weight: normal;\">AMBIENT: 28c LOAD: 50c</span>",
+          "caption4": "Cooled by a twin radiator system and a PWM pump, Titan doesn't break a sweat.",
+          "button4": "<a data-app-btn=\"true\" href=\"pcspecs.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">BENCHMARKS</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-14",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/dreams06-3872x2592-91.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "ABOUT THE SENIOR PROJECT",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "The senior project at Tandem Friends School is a self-driven capstone project designed to allow students to explore an area of interest to them. I designed and built the entirety of Titan given little guidance from teachers or mentors. The project also consisted of a final presentation and paper, both of which are located at the link below.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"seniorproject.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<p>Copyright (c) 2016 Elijah Bosley.</p><br><p>Find me on&nbsp;<a href=\"https://github.com/xenthisx\">Github</a>, <a href=\"https://www.linkedin.com/\">Linkedin</a>, or<a href=\"mailto:ekbosley@gmail.com\"> Email Me</a>.</p>"
+        }
+      ]
+    },
+    "seniorproject.html": {
+      "settings": {
+        "title": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-6",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Home",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content1-11\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-22",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "SENIOR PROJECT PRESENTATION &amp; PAPER",
+          "text": "Scroll down to view the slideshow and see a web version of my paper",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"seniorproject.html#header3-47\" data-toolbar=\"-mbrBtnMove\">PRESENTATION</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"seniorproject.html#header3-48\" data-toolbar=\"-mbrBtnMove\">SYNOPSIS</a> "
+        },
+        {
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header3-47",
+          "title": "PRESENTATION",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "slider",
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide1-4093x2303-12.jpg",
+                "showTitle": false,
+                "title": "Senior Project Presentation",
+                "showText": true,
+                "text": "<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Click the left and right arrows to go back and forth on the slideshow",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide2-4093x2303-67.jpg",
+                "showTitle": false,
+                "title": "Slide 2",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide3-4093x2303-3.jpg",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide4-4093x2303-11.jpg",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide5-4093x2303-22.jpg",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide6-4093x2303-33.jpg",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide7-4093x2303-73.jpg",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide8-4093x2303-41.jpg",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide9-4093x2303-11.jpg",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide10-4093x2303-44.jpg",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide11-4093x2303-62.jpg",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/slide13-4093x2303-57.jpg",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/slide14-4093x2303-59.jpg",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#4c6972",
+            "showBullets": true
+          },
+          "_anchor": "slider-16",
+          "articleLayout": false
+        },
+        {
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header3-48",
+          "title": "SENIOR PROJECT SYNOPSIS",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By Elijah Bosley posted July 30, 2015"
+        },
+        {
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-size": "18px"
+            }
+          },
+          "_anchor": "content1-25",
+          "text": "<p>&nbsp; &nbsp; I originally set out to build a computer and test its efficiency as well as its power usage. I also set out to learn a bit of HTML once the computer was tested and benchmarked using software like 3DMark and Prime95. My goals were to include “a custom water-cooling system with a pump and a reservoir to cool the processor” as well as, hopefully, “graphics [cooling], custom cable sleeving on the power supply and powerful components”.&nbsp;<br></p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;The most important component of a computer is the processor, as without it no calculations can take place and nothing can be accomplished. Typically, processors range in price from very cheap to extremely expensive, but most typical consumer processors fall around the 200-400 dollar range (D. C. Price). The low end processors are typically good enough for most consumers, while the high end market is for more niche uses, such as rendering video or rapidly calculating difficult mathematical problems. These higher end processors are dropping in price as time progresses, with Intel rolling out its least expensive enthusiast series processors yet (CPU World). These processors roll out in a tick-tock cycle, with the tick being a large jump and an architecture improvement, meaning a total design process change, while the tock is a smaller change that mostly results in better efficiency and reliability, rather than a large speed increase (Intel Corporation). The most recent desktop processor release is part of the tock cycle, but it has greater benefits due to the industry-wide rollout of DDR4 ram, ram modules manufactured at a greater density, which provides faster speeds and greater energy efficiencies. Although they are more expensive (Cambell) the most recent generation of Intel processors is a better choice for high end computing as they have long lasting benefits due to their use of newer memory technology and increase in cores. This increase in cores is sometimes not entirely useful, as some applications may not use the extra cores and are poorly optimized for an increase in threads. Competition between software components may occur, which can cause excessive slowness and issues for software that should have no trouble running normally (Hazelwood). This may seem like a problem that is not solvable, but modern software is becoming better and better at handling multiple cores, and I expect that within a few years almost all software will take advantage of more than 2 or 3 cores.</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;The graphics card or GPU is the second most important component in high-end computing as it handles most graphical calculations and displays the screen. All computers have a graphics card, but many only have a graphics rendering chip built into the processor. This works well for machines that are used for basic needs, but when rendering video or displaying video games more power is required. This is where a dedicated graphics card comes in. GPUs have thousands of cores, while CPUs typically have a few fast cores that can do really complex tasks fast, GPUs can do really simple tasks super-fast, allowing them to render images in a much more efficient manner, especially when compared to the computer processor (NVidia Corporation). This makes them perfect for creating images or building incredibly complex worlds out of millions of tiny dots, called pixels (NVidia Corporation). Recent research papers show that lower GPU temperatures, combined with higher clock speeds (how fast each computation can occur, usually measured in megahertz or gigahertz) allow lower voltages and therefore much greater power efficiency than previously believed (D. C. Price). This finding has both large-scale implications as well as real world application, as better power efficiency is very important to both end-users and large corporations. It also means that cooling is becoming exceptionally important.</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Liquid cooling is becoming a much more viable method of removing heat from computer systems. With an increase in consumer availability of computer parts, as well as increased interest from manufacturers and consumers in the extreme computing market, far greater numbers of liquid-cooled PCs are being built now than ever before (Schmidt). Server technology is also being cooled with liquid more often, as it is quieter and typically more energy efficient than running fans. Fluids are able to take heat directly away from the source, without having to create air to blow it away. This mean that there is much more heat dissipation, resulting in lower operating temperatures and more headroom for increasing speeds. Typical water-cooling systems are both simple and also straightforward – a pump circulates fluid, typically distilled water or some other fluid with a high heat capacity, through a closed loop of tubes, which are in turn connected to “blocks”, metal plates attached to hardware components that produce heat. These blocks act as heat sinks to pull heat away from the vital components in the computer. In order to dissipate the now tepid water, radiators are used, similar to how a car works, with fans that push the heat away. In some industrial cases, refrigerators are used to cool the liquid again, and excess heat is simply turned into condensation. This method of cooling is more efficient than air cooling because it cools only the components that produce heat, rather than a large part of the computer.&nbsp;</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Hopefully this background information will help to understand more about the incredibly complicated process of choosing components that work together and are compatible, as well as figuring out the long and drawn-out process of putting them all together.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;This project began in September with testing an older computer and figuring out information about its power usage and the efficiency both under load and when idling. This desktop began drawing 78 watts with a power factor of 0.96 and used 90 volt amps. If I used Chrome or ran slightly strenuous processes the power usage jumped up to 120 watts. Meanwhile, while using benchmarking programs that stress computers to the max, this PC used 237 watts, but became more efficient in its power usage with a power factor of 0.98. The volt-amps while running the Kombustor (MSI) software the power usage jumps to 248 VA. If I ran Prime95 (Great Internet Mersenne Prime Search) as well, a common CPU stress testing utility to test overclocks by calculating Pi, my old system’s power usage jumped to 281 watts, using 284 VA and with a power factor of 0.99. This means that as a system increases in load, the power factor increases as well, an interesting realization: maybe computers more efficiently use power at full processor and graphics load.</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;This system, when compared to my old machine was low end, with an Intel i5 650 from around 2010, with an NVidia GTX 460 GPU from 2010 as well. If you were to compare my old computer to a typical machine that most people would own, it would run laps around them, but a high end system nowadays like the one that I have built is absolutely insane in comparison. The pictures below show both benchmarking programs that I used, as well as a picture of the setup that I had at this time, with the KillAWatt monitoring power usage.</p>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_name": "slider2",
+          "_params": {
+            "autoplay": true,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/kombusterandprime95-1920x1080-23.png",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/img-20140922-204426-2688x1520-41.jpg",
+                "showTitle": false,
+                "title": "Slide 2",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-26",
+          "articleLayout": true
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-27",
+          "text": "<p>&nbsp; &nbsp; September also marked the beginning of my research into what components to purchase as well as budgeting in order to figure out what I could and couldn’t afford. I mostly focused on monitors at this time, and I began looking at higher resolution monitors that passed the 1080p barrier, as I wanted lots of uninterrupted screen space for doing homework and multitasking. I decided that I wanted a 2560x1440 pixel display that was IPS, which means In-Plane-Switching, a display type that results in a much higher quality picture. At this time I was thinking about the Dell U2713HM-IPS-LED or the Qnix Q2710, and I later decided on the QX2710 because of the price, even though I was guaranteed no defects with the Dell monitor.<br></p><p><br></p><p>&nbsp; &nbsp; Like September, much of October was taken up with research about what components I would buy as well as how much money I was going to be spending on the new machine. I realized more about the components that I wanted to purchase, although I began to hesitate on whether or not I wanted two GTX 970s or a GTX980. I also researched processors and reached a slight dilemma. I needed to decide on budget, but if I decided that $2500 ($1550 of which is from selling my old PC) was my budget I wanted to get really high end components. I was not sure if the benefits of DDR4 through Intel’s new Haswell-E processors was worth it, as I would have had to pay $589 for the processor with enough PCI-E lanes to support 3 GPUs in SLI (a technology that distributes graphics load between GPUs), which I actually later realized was incorrect (Crijns) as the lower end processors sported support for 3-way SLI as well.</p><p><br></p><p>&nbsp; &nbsp; I began making decisions in November, and I ordered the Qnix monitor on November 10th. This decision was based on a lot of factors, but mainly that it could be overclocked, a major goal of this project. That means higher refresh rates than the standard 60Hz which allows a less blurry view of videogames and benchmarks. The human eye can notice the difference between 60 and 90Hz, and I was excited to see what that means for day-to-day usage. When I eventually got the monitor, I was incredibly happy. It came with no dead pixels and no light bleeding, as well as some of the best color calibration I have ever seen in a display as you can see from the image below. I immediately overclocked it and I was even happier to learn that it could run at 120Hz, not just 96, meaning twice the refresh rate that it shipped with (lawson67).&nbsp;</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-28",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/img-20141114-165726-2688x1520-29.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Two images showing the contrast differences between the displays."
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-29",
+          "text": "<p>&nbsp; &nbsp; I decided on the i7 5820k for my processor of choice. This choice relied on a few key things, but primarily the upgrade path. DDR3 memory was released in 2008 (Murray), and since then it has been the standard type of memory for every motherboard. Only in the last 3 months has a new standard called DDR4 come out, and this standard is beginning to proliferate, starting with the highest-end devices and working its way down. Since I will be an early adopter of the platform, I have decided to take a leap and purchase a processor that supports this new standard. This, combined with the fact that having six physical cores is awesome, made me decide to purchase this processor.</p><p><br></p><p>&nbsp; &nbsp; Deciding on a motherboard was quite a bit trickier. I decided whether or not I want the size of my computer to be tiny or just normal, even though I could design a system that would fit in a tiny case, size is less important than speed. I believe that this decision helped me to build the most stable and reliable system I could. I initially decided on the Asus x-99a, but ended up spending $50 more to buy the x99-pro, simply because it had a covering that would make the computer much more aesthetically pleasing. I chose Asus because they historically have the most reliable motherboards with the best features. Asus motherboards also have a special socket for the processor called the OC socket, which has about 4x the pins of a typical x99 motherboard to allow for greater power transfer. I did not know if this would help me with real-world applications, but even if it did not I would still have been happy purchasing this motherboard.</p><p><br></p><p>&nbsp; &nbsp; Choosing the brand and speed of DDR4 RAM was a difficult decision, mostly because I had to make quite a few choices in the process. I initially had to decide if the upgrade to DDR4 was worth it, and, even though the difference was small, it was enough to justify buying into a faster platform. Secondly I had to decide if water-cooling my RAM was an option, and I decided that it would be better to simply rely on the heat spreaders built into the RAM as the low voltage and high density of new RAM means that it runs very cool. Another decision that I had to make was the speed. DDR4 memory is sold in a few speeds from stock (2133 MHz) to extremely overclocked (3333 MHz). I knew immediately that I did not want extreme speeds, because the pricing on factory overclocked sticks that ran that fast is insane, at least in the thousands. This meant that I had to choose a speed that I thought was worth it for my applications, so I settled on above 2133 but below 3000. My choice put me right in the middle of that spectrum, with 2400 MHz speed. Again, I changed my mind later because of price, but Corsair Vengeance LPX is what I decided on initially. I ended up purchasing the Crucial Ballistix Sport, because it had better timings, meaning less initial access latency, as well as a much better price, almost $100 cheaper.</p><p><br></p><p>&nbsp; &nbsp; The graphics card decision was a lot easier for me to make. I knew that I would be buying a graphics card from NVidia, even before the new generation of 900 series GPUs was released. This was because of a few key reasons, but primarily because I have purchased their products before and I am very happy with the results. I also knew that I could either choose the GTX 980 or the GTX 970, and this seemed like a hard decision until I realized that I could risk 3 way SLI with 970s, something that has not been very reliable in the past, or stick with what I know and use two GTX 980s. Once I decided that I wanted the GTX 980, the hard decision was figuring out specifically what brand I wanted. NVidia distributes its chips to different manufacturers, who then put it in their video cards and overclock them as well as install wicked heat-sinks in order to make money. I decided to look into water blocks for GTX 980s, and I found that I could buy a custom water block for ASUS Strix brand GPUs, with a laser engraved logo and much more metal than the generic water block. This settled my GPU and GPU water block decision in one fell swoop, and I purchased both the water block and two Strix 980s.</p><p><br></p><p>&nbsp; &nbsp; The case was easy, I knew I wanted enough space to hold everything and still have room to move around, and I also wanted to have something sleek and with sharp edges to complement the parts that I was getting. This eliminated a lot of choices, and after careful deliberation I decided to get a Corsair 750D, a case with a lot of features and dust filters that meant a much cleaner intake and output of air, so I would have to clean it less. This case also weighs much less than the case I used for my first computer, a thirty-five pound beast called the HAF-X. While that case was made of thicker metal, the Corsair case is much lighter at only twenty-one pounds.&nbsp;</p><p><br></p><p>&nbsp; &nbsp; In terms of water-cooling components, the choices were much more difficult and I relied heavily on forums and actual real world experiences to decide on the parts. The EK Supremacy EVO is a CPU water block that beats every other water block in almost every performance test, I decided to purchase it (Moonmanovich). I paid a bit more for a water block made of nickel coated copper entirely rather than a copper and nickel base with a plastic top, simply because I figured it would go well with the GPUs.</p><p><br></p><p>&nbsp; &nbsp; When it came to tubing as well as fittings, the choices were more aesthetically driven than anything. I knew I wanted to buy hard tubing, rather than the typical flexible tubing. This is because I wanted to have sharp edges and ninety degree bends that are only possible with solid tubing. In terms of material, I realized quickly that Acrylic tube, the typical tubing used for solid computer tubing applications, was too breakable and easy to shatter (Mods). I found PETG tubing, a type of plastic that is much more durable and even easier to manipulate, and I also figured out that it was an up-and-coming product in the PC water-cooling industry. I also wanted my computer to have a white and black color scheme, and after reading about how dyes can stain your tubes (rubix_1011), I decided to get white tubes rather than clear with dye.</p><p><br></p><p>&nbsp; &nbsp; This made other decisions about the fittings I would use very easy, and I bought Primochill Revolver fittings because they were the newest and most popular on the water-cooling scene. I also thought that they looked nice, and I bought a pack of ten which was the perfect amount for my entire system.</p><p><br></p><p>&nbsp; &nbsp; The pump was a bit more difficult, especially since I did not know anything about what was important in terms of speed, PSI, overall head, or other values that are advertised with pumps. Using a reference I found online (FrozenCPU), I realized that there were two main variants for pumps, the D5 and the DC12, and most others were simply rebranded versions of these two. I also knew that loudness was a concern, so I wanted to have the quietest and most efficient operation possible, so I decided to use a PWM or Pulse Width Modulation supporting pump. This means that the computer monitors the speeds and is able to control the rotation of the pump in order to reduce noise and strain that the pump goes through. This led me to choose the MCP655-PWM, a pump that is not very common but is based on an extremely common variant of pump, the MCP655. This pump has everything I’ve looked for, including PWM and extreme reliability, as well as power. I also needed a pump housing, a plastic enclosure that holds the pump and keeps it contained, while also making sure that it has input and output ports to allow for the attachment of tubing. This was easy to find, as I found a pump top that worked for my pump, and also worked with a reservoir attachment. The reservoir holds water and allows air bleeding out of the system, an important factor in keeping the computer as noise-free as possible. After selecting all of these components, there was one last thing that I needed to purchase in order to build a water-cooling loop, and that was a radiator…or two.</p><p><br></p><p>&nbsp; &nbsp; I ended up purchasing one 280mm radiator, which holds two or four 140mm fans, and one 360mm radiator, which holds three or six 120mm fans. This was an easy decision to make, as there’s not a lot of information on radiators other than simply that you buy ones that will fit in your case and that have the thickness that you need to dissipate the total wattage of your components. TDP is a number that manufacturers use to tell the maximum wattage that something will use, and typically the number is the max amount of power a component uses. Water-cooling quiet computers typically requires enough radiator space to dissipate 1.2 watts per mm of radiator, so one 120mm radiator dissipates 144 watts of power. With my PC, I have 2 GTX 980s (165w each) and one 5820k (140w) which totals up to 470 watts of total dissipation or a minimum of 390mm of radiators at the minimum.</p><p><br></p><p>&nbsp; &nbsp; Since I decided to buy one 360mm radiator and one 280mm radiator, I will have a total of 640mm of radiator space or 768w of heat dissipation capacity. This is far above the minimum, and it allows my computer to run silently even when playing videogames. I also found very high CFM or Cubic Feet/Minute fans, which means fast and powerful airflow through the radiators even at slow speeds.&nbsp;</p><p><br></p><p>&nbsp; &nbsp; The final components are the hard drives, two of which are for data storage and are simple spinning disks. The primary hard drive on the computer is a solid state drive, which means that instead of having one of these spinning disks, it has a circuit board with chips that store data, similar to a flash drive but astronomically faster. This difference in storage types results in much slower speeds for the secondary hard drives, both of which have a maximum read speed of 126 MB/s according to Western Digital’s specs sheet for the 1TB version of the Caviar Black Hard Drive (Western Digital). This, contrasted with the SSD, a Samsung 850 Evo, with speeds listed as 540 MB/s, is a huge difference (Samsung). Because the secondary storage on my PC will be primarily used for storing media like movies and games, the speed difference will be less noticeable, but I wanted to lessen the gap farther than it already was. That’s where RAID comes in.</p><p><br></p><p>&nbsp; &nbsp; RAID is a technology that is actually very old, and is an acronym that stands for Redundant Array of Independent Disks. This technology was invented for a few reasons: to offer an inexpensive way to have fast storage on servers, because at the time in 1987 there were few inexpensive and fast hard disks, and also to allow redundancy for data backups and to make storage less likely to fail. RAID is arranged into levels, from 0 to 5, with each one meaning something different.&nbsp;</p><p><br></p><p>&nbsp; &nbsp; I had another hard drive lying around that was the same type as the secondary disk I was planning on using, and for this reason I decided that RAID would be perfect for me. I ran a benchmark both before and after instituting a RAID 0 array, and I realized something amazing, I got literally twice the speeds from running two drives in parallel compared to each by themselves, as shown by the before and after benchmarks below, taken with ATTO Disk Benchmark (ATTO). The red bar is write and the green bar is read speeds, in megabytes per second.</p>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_name": "slider2",
+          "_styles": {
+            "P": {
+              "color": "#f97352",
+              "text-align": "center"
+            },
+            "B": {
+              "color": "#f97352"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/hddnoraid-483x616-78.png",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": true,
+                "text": "<br><br><b><br></b><b>Hard Disk Drive, RAID0 Disabled</b><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/hddraid-489x622-16.png",
+                "showTitle": false,
+                "title": "Slide 2",
+                "showText": true,
+                "text": "<br><br><i><b>Hard Disk Drives, RAID0 Enabled.</b></i><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/ssd-484x622-35.png",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": true,
+                "text": "<br><br><b><i>SSD Benchmark, for comparison</i></b><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-30",
+          "articleLayout": true
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-31",
+          "text": "<p>&nbsp; &nbsp; When the time finally came to build my computer I already knew what they layout of tubing and parts would be due to many hours planning and diagramming inside of the case. Using a handy Microsoft Paint diagram made in 5 minutes during Pru’s class (my art teacher) as my guide, I began to start my construction.<br></p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-32",
+          "_params": {
+            "outside": false,
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/watercoolingtubing-880x669-42.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-33",
+          "text": "<p>&nbsp; &nbsp; I began by flushing the radiators, a task that was relatively easy but also painful simply because holding a gallon of distilled in one hand and a big hunk of copper in the other isn’t a small feat.<br></p><p><br></p><p>&nbsp; &nbsp; After rinsing the radiators it was on to removing the GPUs and HDD cages, which was not too hard, and the computer quickly went from this:&nbsp;</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-34",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/img-1494-4320x3240-88.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Titan with all components installed, currently air-cooled"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-35",
+          "text": "<p>To this:</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-36",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dsc-0037-3872x2592-6.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Titan with GPUs and HDD cages removed, all that is left to come out is the processor"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-37",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;Once basically everything except for the motherboard and processor were removed, I began the process of taking apart the GTX 980 STRIX graphics cards.<br></p><p><br></p><p>&nbsp; &nbsp; In the pictures below you can see me placing thermal pads on the VRMs of the GPU. VRM stands for Voltage Regulation Module, and it regulates the power that the GPU receives. After placing these pads on the graphics cards, more pads were applied to other parts of the card, and the shiny thing in the middle (the actual graphics chip) received an x pattern of thermal paste in order to be cooled properly. The wire is the fan cable wire from the previous heat sinks that were on the GPUs. This was difficult to remove, but I found a flat-head screwdriver did the trick.</p>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_name": "slider2",
+          "_params": {
+            "autoplay": true,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-0068-3872x2592-48.jpg",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-0069-3872x2592-46.jpg",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-0058-3872x2592-5.jpg",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/dsc-0087-3872x2592-90.jpg",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-38",
+          "articleLayout": true
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-39",
+          "text": "<p>&nbsp; &nbsp; The water block was easy to install, just a few screws that bolted it to the card, and then the back plate bolted down on top of it. The next step, putting together the FC Terminal, a piece that links two GPUs was pretty straightforward as well. It required the removal of a part that allowed two tubes to connect to each GPU, and screwed right on. This was an easy process, and once it was finished the two GPUs became a solid block that could not be wiggled easily at all. I slotted this into a PCI bus, and began the next step of mounting the CPU water block.</p><p><br></p><p>&nbsp; &nbsp; The EK Supremacy EVO CPU Water block is a beautiful thing, and it is constructed of solid copper and plated with nickel. An interesting feature of this CPU water block is its ability to be opened in order to change parts, allowing customized performance based on the size and shape of the CPU being cooled. The picture below shows the micro-channels in the top of the block, which force water through themselves at high speeds to pull the heat off of the processor at very high speed. The lower part of the block, which actually faces upwards, has the jet-plate, a metal plate that can be switched with other plates that are thicker or thinner depending on the application. Installing this part was very easy, and simply required some thermal paste to be placed on the CPU before being screwed down in an X pattern to provide even coverage.</p><p><br></p>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_name": "slider2",
+          "_params": {
+            "autoplay": true,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-0078-3872x2592-29.jpg",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/dsc-0079-3872x2592-70.jpg",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-40",
+          "articleLayout": true
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-41",
+          "text": "<p>&nbsp; The next step of the build process was to install the radiators, and they went in without a hitch, one with four fans on the front, and one with only three on the top. The picture to the right shows the 360mm radiator with fans attached, although I ended up turning this radiator around for aesthetic purposes. I did end up having a few missing screws, which turned out to not be a problem as there were many extra screws included in both radiator boxes.</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-42",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dsc-0089-3296x2316-6.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "The top radiator, with fans installed"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-43",
+          "text": "<p>The final part of the build process was to install the tubing, and I managed to finish two tubes on the first day. Bending the tubes was incredibly painful, as I had to heat the PETG to the right temperature to bend, but not melt, and then bend quickly and precisely around a template that I made. I ended up messing this up enough that I could not finish the build, and I had to order more tubing. Once that arrived I made (decently) quick work (which means about 6 hours for 3 tubes). I also filled up the computer for the first boot with water-cooling. This was a very frightening experience as I had no idea whether there would be leaks or if the computer would even work. I was also worried that I had messed up the mounting on one of the GPUs and would be unable to run my computer until I opened the graphics card and redid the thermal paste. Luckily, this was not the case and the computer ran amazingly well, but without fan control.</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-44",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/dsc-0099-2224x3322-1.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "The pump, that white tube took probably three hours to create"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-45",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;After figuring out that the cables I had received needed to be modified to allow for control over the fans, I immediately proceeded to snip the wrong ones and had to return them. A few days later I received new ones that would work, and installed them, making the computer quiet.<br></p><p><br></p><p>&nbsp; &nbsp; Towards the end of the project I decided that instead of using the LED controller that was included with the light strip that I installed in the computer I would switch to a microcontroller (a little computer) to allow for light control. I received an Arduino and a shield for it that will allow me to interface with the led strips in the computer. This will allow me to run programs on my computer to interface with the lights, allowing much finer control than I had before.</p><p><br></p><p>&nbsp; &nbsp; When I look back at this year and what I have accomplished I feel as if I have done a very good job of managing my time, especially considering all of the obstacles I have been faced with. There are a few times that I wish I had documented more in my journal, but other than that I feel as if I stayed very well within my initial schedule, aside from being unable to write a simple webpage. I felt as if that goal was a stretch from the beginning, so to me it is not a total loss. I also have begun to explore coding because of this project, as I am learning to make GUIs and use real programming languages for a practical use, even if that use is to control lights on this computer. I am incredibly excited to see where I can go from here, as I think there are many paths that this project will open for me.</p><p><br></p><p>&nbsp; &nbsp; Overall, I am happy with myself as an independent learner, and while there have been a few slow-downs throughout the duration of the project, my pace has been consistent due to my interest in the topic and the fact that I am used to independent classes through multiple independent projects through Tandem and robotics. This project has been an incredibly fun experience, and I plan on expanding it as the year progresses.&nbsp;</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-46",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/computer001png-2568x2673-48.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "The result of my hard work."
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<p>Copyright (c) 2016 Elijah Bosley.</p><br><p>Find me on&nbsp;<a href=\"https://github.com/xenthisx\">Github</a>, <a href=\"https://www.linkedin.com/\">Linkedin</a>, or<a href=\"mailto:ekbosley@gmail.com\"> Email Me</a>.</p>"
+        }
+      ]
+    },
+    "downloads.html": {
+      "settings": {
+        "title": "Downloads",
+        "meta_descr": "Downloadable content on my site"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-6",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Home",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content1-11\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a></li>"
+        },
+        {
+          "_name": "buttons1",
+          "_anchor": "buttons1-78",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://github.com/XenthisX/Resume\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">GITHUB PAGE FOR RESUME</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://github.com/XenthisX/Resume/raw/master/Elijah%20Bosley%20Resume.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">RESUME DIRECT DOWNLOAD</a> "
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-71",
+          "_params": {
+            "outside": false,
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/download-2000x2588-52.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        }
+      ]
+    },
+    "ledcontroller.html": {
+      "settings": {
+        "title": "SMD-LED Controller"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {}
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true,
+              "link": "index.html",
+              "alt": "Home",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-47\">PROJECTS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "text-align": "right",
+              "color": "#ffffff"
+            },
+            "P": {
+              "text-align": "left",
+              "font-size": "60px",
+              "color": "#efefef"
+            },
+            "SPAN": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header4-46",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dsc-0071-3872x2592-73.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "<p><span style=\"font-family: inherit;\">LED CONTROLLER</span><br></p>",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE INFO</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-55",
+          "title": "SOFTWARE BASED LIGHTING FOR DESKTOPS",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-56",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;Using an Arduino Uno plus a Velleman KA02 LED Shield in order to power a strip of 5050 LED Lights, I was able to create a microcontroller based solution for my desire to have software control for the lighting on my desktop. Although this idea has been implemented by manufacturers in the forms of LED strips that can be plugged into a controller, the software implementations have always been lackluster, and the lighting strips have been pricey. I created a solution that is inexpensive and much more easily modifiable.&nbsp;</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-54",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ledcontroller-2048x1158-62.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "The controller, after being soldered together and seated on the Arduino."
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-57",
+          "title": "THE SOFTWARE",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-58",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;The programming for this project was initially very simple, and consisted only of some sample code that I could modify based on the color I wanted the LEDs to change to. This quickly evolved into a serial based piece of software written in processing that can interface with the Arduino that communicates with the USB connection. The latest version of this software has eliminated any Arduino-side processing of data, and relies on Processing to do all the math, which is then sent to over USB using serial in the form of a 9 digit string of numbers.</p>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_name": "slider2",
+          "_params": {
+            "autoplay": false,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/colorcontroller-558x303-64.png",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": true,
+                "text": "<br><br><br><br><br>The ColorController software interface that I wrote.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/colorcontrollercode-643x557-5.png",
+                "showTitle": false,
+                "title": "Slide 2",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-59",
+          "articleLayout": true
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-60",
+          "text": "<p>Features:</p><ul><li>Custom animations and light effects</li><li>HSB color settings, to increase usability, being translated to RGB codes through Processing libraries</li><li>Line-In audio processing, made possible through the Minim libraries and level processing code.</li></ul>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<p>Copyright (c) 2016 Elijah Bosley.</p><br><p>Find me on&nbsp;<a href=\"https://github.com/xenthisx\">Github</a>, <a href=\"https://www.linkedin.com/\">Linkedin</a>, or<a href=\"mailto:ekbosley@gmail.com\"> Email Me</a>.</p>"
+        }
+      ]
+    },
+    "pictures.html": {
+      "settings": {
+        "title": "Pictures of Titan"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-53",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "PICTURES OF TITAN",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"titan.html\" data-toolbar=\"-mbrBtnMove\">BACK TO MAIN</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-6",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Home",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content1-11\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a></li>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header1",
+          "_anchor": "header1-48",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/computer001web-4010x2673-5.png",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "title": "FULL-SCREEN HEADER",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"pictures.html#msg-box1-53\" data-toolbar=\"-mbrBtnMove\">SCROLL FOR MORE</a> "
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            },
+            ".mbr-article P": {
+              "font-size": "19px"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-57",
+          "_params": {
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "THE BUILD PROCESS",
+          "meta": "",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;<b>Building Titan</b> was a complex endeavor, involving countless hours of planning, setup, and extreme terror. The major struggles were the hard plastic tubing, which presented numerous challenges with installation and bending, the waterblock installation, especially for the processor, and difficulties with setup as a normal-use computer.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0078-3872x2592-45-2000x1339-81.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0078-3872x2592-45.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0079-3872x2592-27-2000x1339-61.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0079-3872x2592-27.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0086-3872x2592-42-2000x1339-27.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0086-3872x2592-42.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0081-3872x2592-82-2000x1339-21.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0081-3872x2592-82.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/gpuchip-2625x1750-4-2000x1333-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gpuchip-2625x1750-4.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0080-3872x2592-53-2000x1339-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0080-3872x2592-53.jpg",
+                "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0045-3872x2592-16-2000x1339-18.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0045-3872x2592-16.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0019-3872x2592-95-2000x1339-47.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0019-3872x2592-95.jpg",
+                "active": false
+              }
+            ],
+            "showText": false,
+            "bgColor": "#efefef",
+            "fullWidth": false,
+            "noGutter": true
+          },
+          "_anchor": "gallery1-51",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            },
+            ".mbr-article P": {
+              "font-size": "19px"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-59",
+          "_params": {
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "FINAL BUILD PHOTOS",
+          "meta": "",
+          "text": "<p><b>After hours </b>of work, Titan was finished, and the end result is, in my opinion, glorious. A true test of patience and will, the project started small and ended huge.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-00711-3872x2592-58-2000x1339-62.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-00711-3872x2592-58.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0073-3872x2592-64-2000x1339-5.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0073-3872x2592-64.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0076-3872x2592-45-2000x1339-81.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0076-3872x2592-45.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0069-2592x3872-27-2000x2988-61.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0069-2592x3872-27.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/computer001sm-1200x1249-91-1200x1249-95.jpg",
+                "image": "@PROJECT_PATH@/assets/images/computer001sm-1200x1249-91.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0034-3872x2592-42-2000x1339-27.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0034-3872x2592-42.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0087-3872x2592-4-2000x1339-2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0087-3872x2592-4.jpg",
+                "active": true
+              }
+            ],
+            "showText": false,
+            "bgColor": "#efefef",
+            "fullWidth": false,
+            "noGutter": true
+          },
+          "_anchor": "gallery1-61",
+          "articleLayout": false
+        }
+      ]
+    },
+    "doorlock.html": {
+      "settings": {
+        "title": "Arduino Based Door Lock"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-6",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Home",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content1-11\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a></li>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-68",
+          "title": "ARDUINO BASED DORM-UNLOCK SYSTEM",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": ""
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-69",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;After moving into my dorm, and using a key for a week, I decided that there was a better way to unlock my door. Using an Adafruit NFC shield, a basic servo motor, lots of zip ties, and some programming, I was able to build an electronic door lock that isn't visible from the other side of the door, but can read MiFare cards through it.</p><p>&nbsp; &nbsp; Although the setup isn't pretty, it's extremely effective and only failed once in it's semester of service thus far. The cardboard holding the servo over the lock is especially effective since it allows for minor flexibility when the servo actuates which takes some torque away from the lock holding mechanism.</p><p>&nbsp; &nbsp; I am in the process of figuring out how to make my lock internet-enabled, in order to view the status of the lock and eventually be able to log in and change the lock status remotely</p><p>&nbsp; &nbsp; Find this project and others on my <a href=\"https://www.github.com/xenthisx\" target=\"_blank\">Github Page</a><br></p>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_name": "slider2",
+          "_params": {
+            "autoplay": true,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-20160126-215144-cropped-1520x1750-16.png",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-20160126-213815-1520x2688-95.jpg",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/img-20160126-213834-1520x2688-47.jpg",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-71",
+          "articleLayout": true
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<p>Copyright (c) 2016 Elijah Bosley.</p><br><p>Find me on&nbsp;<a href=\"https://github.com/xenthisx\">Github</a>, <a href=\"https://www.linkedin.com/\">Linkedin</a>, or<a href=\"mailto:ekbosley@gmail.com\"> Email Me</a>.</p>"
+        }
+      ]
+    },
+    "pcspecs.html": {
+      "settings": {
+        "title": "Titan Specs",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-6",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Home",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content1-11\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-66",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#f97352",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/dsc-0071-3872x2592-21.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "SPECS",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>The full specs sheet is difficult to post here, so click the link below to hop over to the EVGA ModsRigs site where my PC is posted.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://www.modsrigs.com/detail.aspx?BuildID=35007\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MODSRIGS</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<p>Copyright (c) 2016 Elijah Bosley.</p><br><p>Find me on&nbsp;<a href=\"https://github.com/xenthisx\">Github</a>, <a href=\"https://www.linkedin.com/\">Linkedin</a>, or<a href=\"mailto:ekbosley@gmail.com\"> Email Me</a>.</p>"
+        }
+      ]
+    }
+  }
+}
