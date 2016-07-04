@@ -1332,7 +1332,7 @@
         {
           "_name": "buttons1",
           "_anchor": "buttons1-78",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://github.com/XenthisX/Resume\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">GITHUB PAGE FOR RESUME</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://github.com/XenthisX/Resume/raw/master/Elijah%20Bosley%20Resume.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">RESUME DIRECT DOWNLOAD</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://github.com/XenthisX/Resume/blob/master/Elijah%20Bosley%20Resume.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">GITHUB PAGE FOR RESUME</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://github.com/XenthisX/Resume/raw/master/Elijah%20Bosley%20Resume.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">RESUME DIRECT DOWNLOAD</a> "
         },
         {
           "_name": "image2",
@@ -1344,7 +1344,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/download-2000x2588-52.png",
+              "src": "@PROJECT_PATH@/assets/images/resume-2000x2588-12.png",
               "class": "mbr-figure__img",
               "width": 1400,
               "link": "",
