@@ -6,7 +6,7 @@
     "name": "Elijah Bosley",
     "favicon": "",
     "publishType": "local",
-    "publishPath": "file:///C:/Users/Elijah%20Bosley/Documents/GitHub/xenthisx.github.io",
+    "publishPath": "file:///Users/elibosley/GitHub/xenthisx.github.io",
     "path": "file:///C:/Users/ekbos/OneDrive",
     "screenshot": "screenshot.png"
   },
@@ -29,7 +29,9 @@
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
             },
-            ".mbr-navbar__section": {},
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
             ".mbr-navbar__hamburger": {
               "color": "#ffffff"
             }
@@ -38,11 +40,11 @@
           "_params": {
             "color": "#2c2c2c",
             "hamburgerColor": "#ffffff",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "collapsed": false,
             "logo": true,
-            "showBrand": true,
+            "showBrand": false,
             "showButtons": false
           },
           "logo": {
@@ -58,7 +60,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-47\">PROJECTS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box1-73\">PROJECTS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#features1-52\">CONTACT</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
@@ -94,7 +96,7 @@
           },
           "title": "Hi, I'm Eli.<br><br>",
           "text": "Welcome to my website, scroll down to learn more about my projects!",
-          "buttons": "  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a>"
+          "buttons": "  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RÉSUMÉ</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -153,7 +155,7 @@
           "headerAlign": "left",
           "title": "ABOUT ME",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>My name is Eli Bosley.&nbsp;</p><p>I study software engineering at the Rochester Institute of Technology. &nbsp;I am passionate about my field and I've done a few cool projects.</p>",
+          "text": "<p>My name is Eli Bosley.&nbsp;</p><p>I study software engineering at the Rochester Institute of Technology. &nbsp;I am passionate about my field and I've done a few cool projects. I just recently started doing Android development as well!</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
@@ -298,6 +300,40 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
         },
         {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-73",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false
+          },
+          "title": "MY PROJECTS",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">START A JOURNEY</a>"
+        },
+        {
           "_name": "footer1",
           "_anchor": "footer1-2",
           "_params": {
@@ -313,50 +349,6 @@
             "overlayColor": "#444444"
           },
           "text": "<p>Copyright (c) 2016 Elijah Bosley.</p><br><p>Find me on&nbsp;<a href=\"https://github.com/xenthisx\">Github</a>, <a href=\"https://www.linkedin.com/\">Linkedin</a>, or<a href=\"mailto:ekbosley@gmail.com\"> Email Me</a>.</p>"
-        },
-        {
-          "_inherit": "msg-box3",
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center",
-              "color": "#fff"
-            },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center",
-              "color": "#fff"
-            },
-            ".mbr-article": {
-              "color": "#fff"
-            }
-          },
-          "_name": "content5",
-          "_anchor": "content5-47",
-          "_params": {
-            "showCaption": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showTitle": true,
-            "showText": true,
-            "showButton": false,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/panorama-4418x878-58.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.2,
-            "overlayColor": "#28324e",
-            "showMeta": false,
-            "darkBackground": true
-          },
-          "title": "MY PROJECTS",
-          "meta": "",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -537,6 +529,66 @@
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>A MiFare based door unlocker, built with an Arduino + NFC-shield,</p><p>and yes, I know it doesn't look pretty.</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"doorlock.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-72",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/20160628-204701-3648x1280-98.jpg",
+            "bgColor": "#f97352",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screenshot-20160703-202208-1920x1080-18.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "ANDROID DEVELOPMENT",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "Check out my most recent Android related projects here.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"android.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         }
       ]
     },
@@ -587,7 +639,7 @@
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-47\">CONTACT</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a></li>"
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RÉSUMÉ</a></li>"
         },
         {
           "_styles": {
@@ -1275,7 +1327,7 @@
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-47\">CONTACT</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a></li>"
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RÉSUMÉ</a></li>"
         },
         {
           "_name": "buttons1",
@@ -1322,7 +1374,9 @@
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
             },
-            ".mbr-navbar__section": {},
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
             ".mbr-navbar__hamburger": {
               "color": "#ffffff"
             }
@@ -1332,11 +1386,11 @@
           "_params": {
             "color": "#2c2c2c",
             "hamburgerColor": "#ffffff",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "collapsed": false,
             "logo": true,
-            "showBrand": true,
+            "showBrand": false,
             "showButtons": false
           },
           "logo": {
@@ -1352,8 +1406,42 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-47\">PROJECTS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">CONTACT</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box1-73\">PROJECTS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#features1-52\">CONTACT</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-135",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "LED CONTROLLER",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"index.html#msg-box1-73\" data-toolbar=\"-mbrBtnMove\">BACK TO PROJECTS</a>"
         },
         {
           "_inherit": "header1",
@@ -1393,7 +1481,7 @@
             "showButtons": false,
             "showArrow": true
           },
-          "title": "<p><span style=\"font-family: inherit;\">LED CONTROLLER</span><br></p>",
+          "title": "<p><span style=\"font-family: inherit;\">ARDUINO LED CONTROLLER</span><br></p>",
           "text": "",
           "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE INFO</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
         },
@@ -1589,7 +1677,7 @@
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-47\">CONTACT</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a></li>"
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RÉSUMÉ</a></li>"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -1866,7 +1954,41 @@
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-47\">CONTACT</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a></li>"
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RÉSUMÉ</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-134",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "DOOR LOCK",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"index.html#msg-box1-73\" data-toolbar=\"-mbrBtnMove\">BACK TO PROJECTS</a>"
         },
         {
           "_name": "header3",
@@ -1992,7 +2114,7 @@
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-47\">CONTACT</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a></li>"
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RÉSUMÉ</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -2121,7 +2243,41 @@
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-47\">CONTACT</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RESUME</a></li>"
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RÉSUMÉ</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-133",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "WATERCOOLED PC",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"index.html#msg-box1-73\" data-toolbar=\"-mbrBtnMove\">BACK TO PROJECTS</a>"
         },
         {
           "_inherit": "header1",
@@ -2356,6 +2512,1050 @@
           "meta": "By John Smith posted July 30, 2015",
           "text": "The senior project at Tandem Friends School is a self-driven capstone project designed to allow students to explore an area of interest to them. I designed and built the entirety of Titan given little guidance from teachers or mentors. The project also consisted of a final presentation and paper, both of which are located at the link below.",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"seniorproject.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<p>Copyright (c) 2016 Elijah Bosley.</p><br><p>Find me on&nbsp;<a href=\"https://github.com/xenthisx\">Github</a>, <a href=\"https://www.linkedin.com/\">Linkedin</a>, or<a href=\"mailto:ekbosley@gmail.com\"> Email Me</a>.</p>"
+        }
+      ]
+    },
+    "android.html": {
+      "settings": {
+        "title": "Android Development",
+        "meta_descr": "Develpment work with Android"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": false,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true,
+              "link": "index.html",
+              "alt": "Home",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box1-73\">PROJECTS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#features1-52\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-132",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "ANDROID APP DEVELOPMENT",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"index.html#msg-box1-73\" data-toolbar=\"-mbrBtnMove\">BACK TO PROJECTS</a>"
+        },
+        {
+          "_name": "features1",
+          "_anchor": "features1-75",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showHeader": false,
+            "showSubheader": false,
+            "columns": "2",
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": false,
+            "showButtons": true
+          },
+          "headerAlign": "left",
+          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screenshot-20160704-160908-1080x1920-51.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "themesettings.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title1": "Android App Theming",
+          "caption1": "",
+          "button1": "<a data-app-btn=\"true\" href=\"themesettings.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screenshot-20160619-124837-1080x1920-13.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title2": "Creating My First Android App",
+          "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"android.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">COMING SOON</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "images/google-fonts.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title3": "WEB FONTS",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "images/unlimited-websites.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title4": "UNLIMITED WEBSITES",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
+        }
+      ]
+    },
+    "themesettings.html": {
+      "settings": {
+        "title": "Creating Settings-based Theming for Android Apps",
+        "meta_descr": "It's not as easy as I thought it would be."
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-6",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Home",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-47\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RÉSUMÉ</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-140",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "ANDROID THEMES TUTORIAL",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"android.html\" data-toolbar=\"-mbrBtnMove\">BACK TO ANDROID</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"android.html\" data-toolbar=\"-mbrBtnMove\">GITHUB</a>"
+        },
+        {
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "font-size": "24px"
+            }
+          },
+          "_anchor": "header3-76",
+          "title": "CREATING SETTINGS-BASED ANDROID THEMES",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "By Eli Bosley posted June 4th, 2016"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-77",
+          "text": "<p>When I set out to make an application I wasn’t quite sure how difficult it was going to be to get the functionality that I wanted. I knew that I would run into different issues along the way but I wasn’t sure what would cause me issues and what would not, and creating dynamic themes caused me a lot more problems than I had anticipated that it would.</p><p><br></p><p>The main issue in my case was one of understanding. My Java knowledge was relatively weak (at least when it comes to full-scale application development) and my Android knowledge was close to none. This, combined with the way that Android handles activities and loading of styles made creating a working theme system difficult, so I wanted to create a page that makes the process easy to follow and understand, especially for newcomers.</p><p><br></p><p>My main goal in creating this article is to get more developers onboard with adding themability to their apps. I appreciate unified color schemes in some situations, but a lot of apps don't support themes (even big apps like Chrome) that I wish were more customizable. This will be partially dealt with when Android N is released with Night Mode, but even beyond that having customizable action-bars and styles is very nice.</p><p><br></p><p>I've divided this tutorial into a few easy steps..</p>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-78",
+          "title": "Step 1",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "Understand how Android loads themes"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-79",
+          "text": "<p>Android has a great function called setTheme that sets the styles for the View. This functions basically is responsible for loading the correct stylesheet when it is called. Unfortunately, it doesn't actually call any redraw functions, so any changes it makes are not applied until the app is restarted or the current view (window) is closed.</p>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-80",
+          "title": "Step 2",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "Creating a settings activity to allow changing of settings"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-81",
+          "text": "This part is pretty easy. Basically you just need to create a settings-fragment for every setting that you might want to change."
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-82",
+          "title": "Step 3",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "Create a function that loads themes when their onCreate method is called"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-84",
+          "text": "<p>This is necessary so that you can redraw a window and have the theme update. The method is called on the creation of every window and checks to see what theme should currently be loaded, then applies it.</p>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-83",
+          "title": "Tutorial:",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-86",
+          "text": "<h3>1. Create a new Android Studio Application with an Empty Activity</h3>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_name": "slider2",
+          "_params": {
+            "autoplay": true,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-9-1529x917-16.png",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "Slide 2",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-10-1529x917-53.png",
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-10-1529x917-96.png",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "Slide 2",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-90",
+          "articleLayout": true
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-91",
+          "text": "<h3>2. Create a Settiing Page</h3>"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-92",
+          "text": "<p>Let's create a settings page to manage the theme setting we will choose. This is easy, just right click on the app folder, mouse over to New -&gt; Activity -&gt; Empty Activity</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-96",
+          "_params": {
+            "outside": false,
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-10-1557x945-30.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-95",
+          "text": "Just name it SettingsActvity and leave the rest of the settings the default for now"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-97",
+          "_params": {
+            "outside": false,
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-10-1529x917-27.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-98",
+          "text": "<p>Go ahead and open up the SettingsActivity.java file that was just created when you hit finish, and add these two things to it:</p><p>In the onCreate method, at the end:</p><pre>getFragmentManager().beginTransaction().replace(android.R.id.content, new MyPreferenceFragment()).commit();</pre><p>And as a separate class entirely:</p><pre>&nbsp; &nbsp; public static class MyPreferenceFragment extends PreferenceFragment {<br>&nbsp; &nbsp; &nbsp; &nbsp; @Override<br>&nbsp; &nbsp; &nbsp; &nbsp; public void onCreate(final Bundle savedInstanceState) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; super.onCreate(savedInstanceState);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; addPreferencesFromResource(R.xml.preferences);<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; }<br>}<br></pre><p>The top line is responsible for loading the preference fragment class that you created with the second snippet, and the bottom one loads a new XML file that must be created called preferences.xml. We'll create that next..</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-99",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-11-923x364-15.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/java/com/elijahbosley/themetutorial/SettingActivity.java",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "<p>This is the finished version of this file, click&nbsp;<a href=\"https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/java/com/elijahbosley/themetutorial/SettingActivity.java\">HERE</a><a href=\"TODO\"></a><a href=\"TODO\"></a>&nbsp;to view the file on Github</p>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-100",
+          "title": "Adding Settings",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": ""
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-101",
+          "text": "<p>Next, we need to add the actual preferences to this activity. This part is easy, just right click res and create a new resouce directory called \"xml\" with a resource type of \"xml\" as well.</p>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_name": "slider2",
+          "_params": {
+            "autoplay": false,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-11-1557x945-44.png",
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-11-832x486-75.png",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "Slide 2",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-102",
+          "articleLayout": true
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-103",
+          "text": "<p>Then right click that new directory and add an xml file called \"preferences\" to it.</p>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_name": "slider2",
+          "_params": {
+            "autoplay": false,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-11-1557x1092-9.png",
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-11-832x488-11.png",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "Slide 2",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-104",
+          "articleLayout": true
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-105",
+          "text": "<p>Beofre we add any preferences to this file, we need to create a way to access this settings screen. In the MainActivity.java file for the project we must add a menu button and initialize it, which requires a couple of generic code snippets.</p><p>This snippet inflates the menu using another XML file we must create.</p><pre>@Override<br>&nbsp; &nbsp; public boolean onCreateOptionsMenu(Menu menu) {<br>&nbsp; &nbsp; &nbsp; &nbsp; // creates the menu<br>&nbsp; &nbsp; &nbsp; &nbsp; getMenuInflater().inflate(R.menu.menu_main, menu);<br>&nbsp; &nbsp; &nbsp; &nbsp; return true;<br>&nbsp; &nbsp; }<br></pre><p>This snippet is responsible for handling the selection of an item in the menu. We'll define the R.id.settings item right after this part with the menu definition.</p><pre>@Override<br>&nbsp; &nbsp; public boolean onOptionsItemSelected(MenuItem item) {<br>&nbsp; &nbsp; &nbsp; &nbsp; // handles actionbar item clicks here<br>&nbsp; &nbsp; &nbsp; &nbsp; int id = item.getItemId();<br>&nbsp; &nbsp; &nbsp; &nbsp; if (id == R.id.settings) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Intent intent = new Intent(this, SettingActivity.class);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; startActivity(intent);<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; return super.onOptionsItemSelected(item);<br>&nbsp; &nbsp; }</pre><p><br></p><p>Below is the entirety of the MainActivity.java file, excluding imports which AndroidStudio will automatically pick up and do for you.</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-106",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-12-597x560-97.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/java/com/elijahbosley/themetutorial/MainActivity.java",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "<p>This is the finished version of this file, click <a href=\"https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/java/com/elijahbosley/themetutorial/MainActivity.java\">HERE</a><a href=\"test\"></a> to view the file on Github</p>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-107",
+          "title": "Create Menu XML File",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-108",
+          "text": "<p>Exactly like before when we made the preferences.xml file, we must create a menu_main.xml file, nested inside of the menu directory.</p>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_name": "slider2",
+          "_params": {
+            "autoplay": false,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-12-1557x945-48.png",
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-12-840x492-27.png",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "Slide 2",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-12-1557x1055-90.png",
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-12-834x486-57.png",
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "Slide 3",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-109",
+          "articleLayout": true
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-110",
+          "text": "<p>Once you've created this file you need to add a single item to it, which will look like this:</p><pre>&lt;item<br>&nbsp; &nbsp; &nbsp; &nbsp; android:id=\"@+id/settings\"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:title=\"Settings\" /&gt;<br></pre><p>This code snippet goes right between the menu tags, as such:&nbsp;</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-111",
+          "_params": {
+            "outside": false,
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-12-555x130-13.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_name": "image2",
+          "_styles": {
+            "SMALL": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "image2-112",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screenshot-20160704-121235-1920x1920-43.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Your application will now resemble this, complete with 3 dot menu button!"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-113",
+          "title": "Adding the Styles and Settings&nbsp;",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-114",
+          "text": "<p>Now that all of the setup steps are done, we can finally create a settings item and add the styles that go along with it. For the purposes of this tutorial I'm going to keep it simple and add only 1 option with a dark or a light theme, but once you get the hang of styles and Preference Fragments it takes very little time to add more.</p><p><br></p><p>Go to the \"preferences.xml\" file in your app/res/xml folder and add a list preference that looks like this:</p><pre>&lt;ListPreference<br>&nbsp; &nbsp; &nbsp; &nbsp; android:defaultValue=\"LightTheme\"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:entries=\"@array/pref_theme_titles\"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:entryValues=\"@array/pref_theme_values\"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:key=\"themeSelection\"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:summary=\"This preference lets you choose a theme for the app\"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:title=\"Select Theme\" /&gt;<br></pre><p>Again, this nests between the starting and ending PreferenceScreen tags. This file will end up looking like this:</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-115",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-12-654x266-13.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/xml/preferences.xml",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "<p>This is the finished version of preferences.xml click <a href=\"https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/xml/preferences.xml\">HERE</a><a href=\"https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/xml/preferences.xml\"></a> to view the file on Github</p>"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-116",
+          "text": "<p>In order to fix the errors above we must add the actual arrays that hold the items in the Preference Fragment. This is done through the auto-generated strings.xml file that is located in app/res/values/. Navigate to this file and add the following inside of the resources tags.</p><p>This top one is in charge of the displayed names for each theme</p><pre>&lt;string-array name=\"pref_theme_titles\"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item&gt;Light\"&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item&gt;Dark\"&lt;/item&gt;<br>&nbsp; &nbsp; &lt;/string-array&gt;<br></pre><p>And the bottom string array is the actual setting item they reference, which can be grabbed from the sharedPreferenceManager.</p><pre>&nbsp; &nbsp; &lt;string-array name=\"pref_theme_values\"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item&gt;\"LightTheme\"&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item&gt;\"DarkTheme\"&lt;/item&gt;<br>&nbsp; &nbsp; &lt;/string-array&gt;<br></pre><p>This file, when completed will look like this:</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-117",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-12-451x315-60.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/values/strings.xml",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "<p>This is the finished version of strings.xml click <a href=\"https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/values/strings.xml\">HERE</a><a href=\"todo\"></a> to view the file on Github</p>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-118",
+          "title": "Changing Colors",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-119",
+          "text": "<p>If you've made it this far you now have an Android app with a menu-button that allows you to change a setting, but nothing happens when the setting switches. This is dealt with through a custom java class that deals with changing theme on page loads and also with parsing the theme switches.</p><p>Make a new class called SetupTheme.java by right clicking the java -&gt; com.yourcompany.appname folder.</p>"
+        },
+        {
+          "_inherit": "slider",
+          "_afterNavbarItem": ".mbr-slider",
+          "_name": "slider2",
+          "_params": {
+            "autoplay": false,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-1-1557x945-13.png",
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "Slide 1",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-1-359x141-63.png",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "Slide 2",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "showBullets": true
+          },
+          "_anchor": "slider2-120",
+          "articleLayout": true
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-121",
+          "text": "<p>Fill this in with the following:&nbsp;</p><pre>public class SetupTheme {<br>&nbsp; &nbsp; public static void setupWindowTheme(Activity activity) {<br>&nbsp; &nbsp; &nbsp; &nbsp; SharedPreferences pref = PreferenceManager<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .getDefaultSharedPreferences(activity);<br>&nbsp; &nbsp; &nbsp; &nbsp; String themeName = pref.getString(\"themeSelection\", \"Theme\");<br>&nbsp; &nbsp; &nbsp; &nbsp; switch (themeName) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; case \"LightTheme\":<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; activity.setTheme(R.style.LightTheme);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; case \"DarkTheme\":<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; activity.setTheme(R.style.DarkTheme);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break;<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; }<br>}</pre><p>This class can be called and given a view, and will apply the currently selected theme (read from the settings fragment you created earlier) to decide what color scheme to give the app. Right now you have errors on both of the R.style.* items because they haven't yet been created, but creating them is very easy.</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-122",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-3-583x339-79.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/java/com/elijahbosley/themetutorial/SetupTheme.java",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "<p>This is the finished version of SetupTheme.java, click <a href=\"https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/java/com/elijahbosley/themetutorial/SetupTheme.java\">HERE</a><a href=\"http://here\"></a> to view the file on Github</p>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-123",
+          "title": "Creating Styles",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-124",
+          "text": "<p>Now naviagate to your styles.xml file (also autogenerated) located inside app/res/values.</p><p><br></p><p>Inside of this is the base application theme, which is fine to leave if you want your app to boot with a different theme than you can select. For our purposes we will change it so that it is the light theme, and the dark theme is applied separately.&nbsp;</p><p>Update this file so that it has these two styles inside of it, one for the light theme and one for the dark theme:</p><p><b>Light:</b></p><pre>&nbsp;&lt;!-- Base application theme. --&gt;<br>&nbsp; &nbsp; &lt;style name=\"LightTheme\" parent=\"Theme.AppCompat.Light.DarkActionBar\"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Customize your theme here. --&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name=\"colorPrimary\"&gt;@color/colorPrimary&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name=\"colorPrimaryDark\"&gt;@color/colorPrimaryDark&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name=\"colorAccent\"&gt;@color/colorAccent&lt;/item&gt;<br>&nbsp; &nbsp; &lt;/style&gt;</pre><p><b>Dark</b></p><pre>&nbsp; &nbsp; &lt;style name=\"DarkTheme\" parent=\"Theme.AppCompat\"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Customize your theme here. --&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name=\"colorPrimary\"&gt;@color/colorPrimary&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name=\"colorPrimaryDark\"&gt;@color/colorPrimaryDark&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name=\"colorAccent\"&gt;@color/colorAccent&lt;/item&gt;<br>&nbsp; &nbsp; &lt;/style&gt;</pre><p>This file should now contain both of these items and your errors should be gone. Unfortunately themes don't work quite yet as we must update the app to launch with the LightTheme and add the SetupTheme function to every page we want to theme.</p><br><p>To fix the recently broken AppManifest issue, navigate to app/manifests then to AndroidManifest.xml. Just change the line that is red and says <b>android:theme=\"@style/AppTheme\" </b>to instead say <b>android:theme=\"@style/LightTheme\"</b></p><p>These files should end up looking like this:</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-125",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-3-636x365-48.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/values/styles.xml",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "<p>This is the finished version of styles.xml, click <a href=\"https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/values/styles.xml\">HERE</a><a href=\"http://tes\"></a> to view the file on Github</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-126",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2016-07-04-at-3-702x370-21.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/AndroidManifest.xml",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "<p>This is the finished version of AndroidManifest.xml, click <a href=\"https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/AndroidManifest.xml\">HERE</a><a href=\"http://tsdsa\"></a> to view the file on Github</p>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-127",
+          "title": "Putting it All Together",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-128",
+          "text": "<p>Getting all of the moving parts to cooperate is easy, just add this line to the onCreate method before the view is set on any file that you want to support your new themes:&nbsp;</p><pre>SetupTheme.setupWindowTheme(this);</pre><p>Unfortunately, we're not quite done. This is when I thought I had all of the stuff working together, but as you'll see if you try to run this the functionality is a little bit broken. You have to quit out of the app before it's even possible to see the main window's theme update, and the settings window theme doesn't update until you reopen settings. All of this is pretty easy to fix, so here goes...</p><p><br></p><p>In order to get the preference change to update the main window on the back button press, we need to add the override method for back button presses inside of the SettingsActivity.java file in the SettingsActivity class. This looks like this:&nbsp;</p><pre>&nbsp; &nbsp; @Override<br>&nbsp; &nbsp; public void onBackPressed() {<br>&nbsp; &nbsp; &nbsp; &nbsp; Intent i = new Intent(getApplicationContext(), MainActivity.class);<br>&nbsp; &nbsp; &nbsp; &nbsp; startActivity(i);<br>&nbsp; &nbsp; &nbsp; &nbsp; finish();<br>&nbsp; &nbsp; }</pre><p>This will redraw the main window when back is pressed, successfully applying the theme to it.</p><p>Next, if you desperately want the theme to apply the second the theme is changed you need to add a listener that will redraw the settings window when a setting changes. This requires you to implement SharedPreferenceChangeListener in your preferenceFragment class like this:</p><pre>public static class MyPreferenceFragment extends PreferenceFragment implements SharedPreferences.OnSharedPreferenceChangeListener</pre><p>This requires an Override method as well: onSharedPreferenceChange, which you can add below the onCreate method in the class. That looks like this:</p><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Override<br>&nbsp; &nbsp; &nbsp; &nbsp; public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(\"key was: \" + key);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (key != null) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (getActivity() != null) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; getActivity().recreate();<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br></pre><p>Finally, you need to add this line to the PreferenceFragment's class onCreate method, which registers the new listener</p><pre>PreferenceManager.getDefaultSharedPreferences(this.getActivity()).registerOnSharedPreferenceChangeListener(this);</pre><p>And that's it, now you have a themeable Android app that you can do whatever you would like with. </p><p>Hopefully I've helped answer some questions about how this process works, I know that I had trouble with it. If you need help with the process don't hesistate to reach out and contact me.</p>"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-130",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "GITHUB REPO FOR THIS PROJECT",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://github.com/XenthisX/ThemeTutorial/\" data-toolbar=\"-mbrBtnMove\">GO TO GITHUB</a>"
         },
         {
           "_name": "footer1",
