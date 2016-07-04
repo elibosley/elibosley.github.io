@@ -3523,6 +3523,43 @@
           "text": "<p>Getting all of the moving parts to cooperate is easy, just add this line to the onCreate method before the view is set on any file that you want to support your new themes:&nbsp;</p><pre>SetupTheme.setupWindowTheme(this);</pre><p>Unfortunately, we're not quite done. This is when I thought I had all of the stuff working together, but as you'll see if you try to run this the functionality is a little bit broken. You have to quit out of the app before it's even possible to see the main window's theme update, and the settings window theme doesn't update until you reopen settings. All of this is pretty easy to fix, so here goes...</p><p><br></p><p>In order to get the preference change to update the main window on the back button press, we need to add the override method for back button presses inside of the SettingsActivity.java file in the SettingsActivity class. This looks like this:&nbsp;</p><pre>&nbsp; &nbsp; @Override<br>&nbsp; &nbsp; public void onBackPressed() {<br>&nbsp; &nbsp; &nbsp; &nbsp; Intent i = new Intent(getApplicationContext(), MainActivity.class);<br>&nbsp; &nbsp; &nbsp; &nbsp; startActivity(i);<br>&nbsp; &nbsp; &nbsp; &nbsp; finish();<br>&nbsp; &nbsp; }</pre><p>This will redraw the main window when back is pressed, successfully applying the theme to it.</p><p>Next, if you desperately want the theme to apply the second the theme is changed you need to add a listener that will redraw the settings window when a setting changes. This requires you to implement SharedPreferenceChangeListener in your preferenceFragment class like this:</p><pre>public static class MyPreferenceFragment extends PreferenceFragment implements SharedPreferences.OnSharedPreferenceChangeListener</pre><p>This requires an Override method as well: onSharedPreferenceChange, which you can add below the onCreate method in the class. That looks like this:</p><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Override<br>&nbsp; &nbsp; &nbsp; &nbsp; public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(\"key was: \" + key);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (key != null) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (getActivity() != null) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; getActivity().recreate();<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br></pre><p>Finally, you need to add this line to the PreferenceFragment's class onCreate method, which registers the new listener</p><pre>PreferenceManager.getDefaultSharedPreferences(this.getActivity()).registerOnSharedPreferenceChangeListener(this);</pre><p>And that's it, now you have a themeable Android app that you can do whatever you would like with. </p><p>Hopefully I've helped answer some questions about how this process works, I know that I had trouble with it. If you need help with the process don't hesistate to reach out and contact me.</p>"
         },
         {
+          "_inherit": "gallery1",
+          "_name": "gallery2",
+          "_params": {
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-20160704-163239-1080x1920-72-1080x1920-87.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-20160704-163239-1080x1920-72.png",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-20160704-160908-1080x1920-9-1080x1920-42.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-20160704-160908-1080x1920-9.png",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-20160704-163243-1080x1920-99-1080x1920-94.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-20160704-163243-1080x1920-99.png",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-20160704-163250-1080x1920-84-1080x1920-59.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-20160704-163250-1080x1920-84.png",
+                "active": false
+              }
+            ],
+            "showText": false,
+            "fullWidth": true,
+            "noGutter": true
+          },
+          "_anchor": "gallery2-129",
+          "articleLayout": true
+        },
+        {
           "_inherit": "msg-box1",
           "_styles": {
             ".mbr-header .mbr-header__text": {
