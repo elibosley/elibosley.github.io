@@ -25,6 +25,9 @@
 #msg-box4-53 .mbr-article {
   color: #ffffff;
 }
+#msg-box4-53 .mbr-article P {
+  text-align: left;
+}
 #features1-52 P {
   text-align: center;
 }
@@ -280,6 +283,24 @@
   color: #fff;
 }
 #msg-box1-132 .mbr-article {
+  color: #fff;
+}
+#ext_menu-6 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-6.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-6 .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-6 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#msg-box1-131 .mbr-header .mbr-header__text {
+  color: #fff;
+}
+#msg-box1-131 .mbr-article {
   color: #fff;
 }
 #ext_menu-6 .mbr-brand__name {

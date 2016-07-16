@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Site made with Mobirise Website Builder v3.0, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v3.0, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/images/logoanimatedbl.gif" type="image/x-icon">
+  <meta name="description" content="It's not as easy as I thought it would be.">
+  <title>Creating Settings-based Theming for Android Apps</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/mobirise/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise-slider/style.css">
+  <link rel="stylesheet" href="assets/mobirise-gallery/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+<section class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--sticky mbr-navbar--auto-collapse" id="ext_menu-6">
+    <div class="mbr-navbar__section mbr-section">
+        <div class="mbr-section__container container">
+            <div class="mbr-navbar__container">
+                <div class="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
+                    <span class="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
+                        <span class="mbr-brand__logo"><a href="index.html"><img src="assets/images/logoanimatedbl.gif" class="mbr-navbar__brand-img mbr-brand__img" alt="Home"></a></span>
+                        <span class="mbr-brand__name"><a class="mbr-brand__name text-white" href="https://mobirise.com"></a></span>
+                    </span>
+                </div>
+                <div class="mbr-navbar__hamburger mbr-hamburger"><span class="mbr-hamburger__line"></span></div>
+                <div class="mbr-navbar__column mbr-navbar__menu">
+                    <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
+                        <div class="mbr-navbar__column">
+                            <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="index.html">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="index.html#msg-box4-53">ABOUT</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="index.html#content5-47">CONTACT</a></li></ul>                            
+                            <ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__btn btn btn-danger" href="downloads.html">RÉSUMÉ</a></li></ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="engine"><a rel="external" href="https://mobirise.com">web page creator software</a></section><section class="mbr-section mbr-section--relative mbr-section--short-paddings mbr-after-navbar" id="msg-box1-140" style="background-color: rgb(60, 60, 60);">
+
+    
+
+    <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 60px; padding-bottom: 60px;">
+        <div class="row">
+            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
+                <div class="mbr-box__magnet mbr-box__magnet--top-left mbr-section__left col-sm-8">
+                    <div class="mbr-section__container">
+                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
+                            <h3 class="mbr-header__text">ANDROID THEMES TUTORIAL</h3>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="mbr-box__magnet mbr-box__magnet--top-left mbr-section__right col-sm-4">
+                    <div class="mbr-section__container">
+                        <div class="mbr-buttons mbr-buttons--auto-align mbr-buttons--top mbr-buttons--left"><a class="mbr-buttons__btn btn btn-lg btn-danger" href="android.html">BACK TO ANDROID</a> <a class="mbr-buttons__btn btn btn-lg btn-primary" href="android.html">GITHUB</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section" id="header3-76">
+    <div class="mbr-section__container container mbr-section__container--first">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">CREATING SETTINGS-BASED ANDROID THEMES</h3>
+                <p class="mbr-header__subtext">By Eli Bosley posted June 4th, 2016</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-77">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>When I set out to make an application I wasn’t quite sure how difficult it was going to be to get the functionality that I wanted. I knew that I would run into different issues along the way but I wasn’t sure what would cause me issues and what would not, and creating dynamic themes caused me a lot more problems than I had anticipated that it would.</p><p><br></p><p>The main issue in my case was one of understanding. My Java knowledge was relatively weak (at least when it comes to full-scale application development) and my Android knowledge was close to none. This, combined with the way that Android handles activities and loading of styles made creating a working theme system difficult, so I wanted to create a page that makes the process easy to follow and understand, especially for newcomers.</p><p><br></p><p>My main goal in creating this article is to get more developers onboard with adding themability to their apps. I appreciate unified color schemes in some situations, but a lot of apps don't support themes (even big apps like Chrome) that I wish were more customizable. This will be partially dealt with when Android N is released with Night Mode, but even beyond that having customizable action-bars and styles is very nice.</p><p><br></p><p>I've divided this tutorial into a few easy steps..</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="header3-78">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">Step 1</h3>
+                <p class="mbr-header__subtext">Understand how Android loads themes</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-79">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Android has a great function called setTheme that sets the styles for the View. This functions basically is responsible for loading the correct stylesheet when it is called. Unfortunately, it doesn't actually call any redraw functions, so any changes it makes are not applied until the app is restarted or the current view (window) is closed.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="header3-80">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">Step 2</h3>
+                <p class="mbr-header__subtext">Creating a settings activity to allow changing of settings</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-81">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2">This part is pretty easy. Basically you just need to create a settings-fragment for every setting that you might want to change.</div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="header3-82">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">Step 3</h3>
+                <p class="mbr-header__subtext">Create a function that loads themes when their onCreate method is called</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-84">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>This is necessary so that you can redraw a window and have the theme update. The method is called on the creation of every window and checks to see what theme should currently be loaded, then applies it.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="header3-83">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">Tutorial:</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-86">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><h3>1. Create a new Android Studio Application with an Empty Activity</h3></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-slider mbr-section mbr-section--no-padding carousel slide" data-ride="carousel" data-wrap="true" data-interval="5000" id="slider2-90">
+    <div class="mbr-section__container container article-slider mbr-section__container--middle">
+        <div class=" col-sm-8 col-sm-offset-2">
+            <ol class="carousel-indicators">
+                <li data-app-prevent-settings="" data-target="#slider2-90" data-slide-to="0" class="active"></li><li data-app-prevent-settings="" data-target="#slider2-90" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider2-90" class="" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center active">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-left">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-9-1529x917-16.png">
+                            <div class="row">
+                                <div class=" col-md-6 col-md-offset-1">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-center">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-10-1529x917-53.png">
+                            <div class="row">
+                                <div class=" col-md-8 col-md-offset-2">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-left">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-10-1529x917-96.png">
+                            <div class="row">
+                                <div class=" col-md-6 col-md-offset-1">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a data-app-prevent-settings="" class="left carousel-control" role="button" data-slide="prev" href="#slider2-90">
+                <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a data-app-prevent-settings="" class="right carousel-control" role="button" data-slide="next" href="#slider2-90">
+                <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-91">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><h3>2. Create a Settiing Page</h3></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-92">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Let's create a settings page to manage the theme setting we will choose. This is easy, just right click on the app folder, mouse over to New -&gt; Activity -&gt; Empty Activity</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="image2-96">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom">
+
+                    <div><img src="assets/images/screen-shot-2016-07-04-at-10-1557x945-30.png" class="mbr-figure__img"></div>
+                    
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-95">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2">Just name it SettingsActvity and leave the rest of the settings the default for now</div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="image2-97">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom">
+
+                    <div><img src="assets/images/screen-shot-2016-07-04-at-10-1529x917-27.png" class="mbr-figure__img"></div>
+                    
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-98">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Go ahead and open up the SettingsActivity.java file that was just created when you hit finish, and add these two things to it:</p><p>In the onCreate method, at the end:</p><pre>getFragmentManager().beginTransaction().replace(android.R.id.content, new MyPreferenceFragment()).commit();</pre><p>And as a separate class entirely:</p><pre>&nbsp; &nbsp; public static class MyPreferenceFragment extends PreferenceFragment {<br>&nbsp; &nbsp; &nbsp; &nbsp; @Override<br>&nbsp; &nbsp; &nbsp; &nbsp; public void onCreate(final Bundle savedInstanceState) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; super.onCreate(savedInstanceState);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; addPreferencesFromResource(R.xml.preferences);<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; }<br>}<br></pre><p>The top line is responsible for loading the preference fragment class that you created with the second snippet, and the bottom one loads a new XML file that must be created called preferences.xml. We'll create that next..</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="image2-99">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom">
+
+                    <div><a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/java/com/elijahbosley/themetutorial/SettingActivity.java"><img src="assets/images/screen-shot-2016-07-04-at-11-923x364-15.png" class="mbr-figure__img"></a></div>
+                    <figcaption class="mbr-figure__caption">
+                        <small class="mbr-figure__caption-small"><p>This is the finished version of this file, click&nbsp;<a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/java/com/elijahbosley/themetutorial/SettingActivity.java">HERE</a><a href="TODO"></a><a href="TODO"></a>&nbsp;to view the file on Github</p></small>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="header3-100">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">Adding Settings</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-101">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Next, we need to add the actual preferences to this activity. This part is easy, just right click res and create a new resouce directory called "xml" with a resource type of "xml" as well.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-slider mbr-section mbr-section--no-padding carousel slide" data-ride="carousel" data-wrap="true" data-interval="false" id="slider2-102">
+    <div class="mbr-section__container container article-slider mbr-section__container--middle">
+        <div class=" col-sm-8 col-sm-offset-2">
+            <ol class="carousel-indicators">
+                <li data-app-prevent-settings="" data-target="#slider2-102" class="active" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#slider2-102" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center active">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-right">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-11-1557x945-44.png">
+                            <div class="row">
+                                <div class=" col-md-6 col-md-offset-5">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-left">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-11-832x486-75.png">
+                            <div class="row">
+                                <div class=" col-md-6 col-md-offset-1">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a data-app-prevent-settings="" class="left carousel-control" role="button" data-slide="prev" href="#slider2-102">
+                <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a data-app-prevent-settings="" class="right carousel-control" role="button" data-slide="next" href="#slider2-102">
+                <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-103">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Then right click that new directory and add an xml file called "preferences" to it.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-slider mbr-section mbr-section--no-padding carousel slide" data-ride="carousel" data-wrap="true" data-interval="false" id="slider2-104">
+    <div class="mbr-section__container container article-slider mbr-section__container--middle">
+        <div class=" col-sm-8 col-sm-offset-2">
+            <ol class="carousel-indicators">
+                <li data-app-prevent-settings="" data-target="#slider2-104" data-slide-to="0" class="active"></li><li data-app-prevent-settings="" data-target="#slider2-104" class="" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center active">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-right">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-11-1557x1092-9.png">
+                            <div class="row">
+                                <div class=" col-md-6 col-md-offset-5">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-left">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-11-832x488-11.png">
+                            <div class="row">
+                                <div class=" col-md-6 col-md-offset-1">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a data-app-prevent-settings="" class="left carousel-control" role="button" data-slide="prev" href="#slider2-104">
+                <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a data-app-prevent-settings="" class="right carousel-control" role="button" data-slide="next" href="#slider2-104">
+                <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-105">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Beofre we add any preferences to this file, we need to create a way to access this settings screen. In the MainActivity.java file for the project we must add a menu button and initialize it, which requires a couple of generic code snippets.</p><p>This snippet inflates the menu using another XML file we must create.</p><pre>@Override<br>&nbsp; &nbsp; public boolean onCreateOptionsMenu(Menu menu) {<br>&nbsp; &nbsp; &nbsp; &nbsp; // creates the menu<br>&nbsp; &nbsp; &nbsp; &nbsp; getMenuInflater().inflate(R.menu.menu_main, menu);<br>&nbsp; &nbsp; &nbsp; &nbsp; return true;<br>&nbsp; &nbsp; }<br></pre><p>This snippet is responsible for handling the selection of an item in the menu. We'll define the R.id.settings item right after this part with the menu definition.</p><pre>@Override<br>&nbsp; &nbsp; public boolean onOptionsItemSelected(MenuItem item) {<br>&nbsp; &nbsp; &nbsp; &nbsp; // handles actionbar item clicks here<br>&nbsp; &nbsp; &nbsp; &nbsp; int id = item.getItemId();<br>&nbsp; &nbsp; &nbsp; &nbsp; if (id == R.id.settings) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Intent intent = new Intent(this, SettingActivity.class);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; startActivity(intent);<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; return super.onOptionsItemSelected(item);<br>&nbsp; &nbsp; }</pre><p><br></p><p>Below is the entirety of the MainActivity.java file, excluding imports which AndroidStudio will automatically pick up and do for you.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="image2-106">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom">
+
+                    <div><a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/java/com/elijahbosley/themetutorial/MainActivity.java"><img src="assets/images/screen-shot-2016-07-04-at-12-597x560-97.png" class="mbr-figure__img"></a></div>
+                    <figcaption class="mbr-figure__caption">
+                        <small class="mbr-figure__caption-small"><p>This is the finished version of this file, click <a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/java/com/elijahbosley/themetutorial/MainActivity.java">HERE</a><a href="test"></a> to view the file on Github</p></small>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="header3-107">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">Create Menu XML File</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-108">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Exactly like before when we made the preferences.xml file, we must create a menu_main.xml file, nested inside of the menu directory.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-slider mbr-section mbr-section--no-padding carousel slide" data-ride="carousel" data-wrap="true" data-interval="false" id="slider2-109">
+    <div class="mbr-section__container container article-slider mbr-section__container--middle">
+        <div class=" col-sm-8 col-sm-offset-2">
+            <ol class="carousel-indicators">
+                <li data-app-prevent-settings="" data-target="#slider2-109" data-slide-to="0" class="active"></li><li data-app-prevent-settings="" data-target="#slider2-109" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider2-109" data-slide-to="2"></li><li data-app-prevent-settings="" data-target="#slider2-109" class="" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center active">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-right">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-12-1557x945-48.png">
+                            <div class="row">
+                                <div class=" col-md-6 col-md-offset-5">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-left">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-12-840x492-27.png">
+                            <div class="row">
+                                <div class=" col-md-6 col-md-offset-1">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-center">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-12-1557x1055-90.png">
+                            <div class="row">
+                                <div class=" col-md-8 col-md-offset-2">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-center">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-12-834x486-57.png">
+                            <div class="row">
+                                <div class=" col-md-8 col-md-offset-2">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a data-app-prevent-settings="" class="left carousel-control" role="button" data-slide="prev" href="#slider2-109">
+                <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a data-app-prevent-settings="" class="right carousel-control" role="button" data-slide="next" href="#slider2-109">
+                <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-110">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Once you've created this file you need to add a single item to it, which will look like this:</p><pre>&lt;item<br>&nbsp; &nbsp; &nbsp; &nbsp; android:id="@+id/settings"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:title="Settings" /&gt;<br></pre><p>This code snippet goes right between the menu tags, as such:&nbsp;</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="image2-111">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom">
+
+                    <div><img src="assets/images/screen-shot-2016-07-04-at-12-555x130-13.png" class="mbr-figure__img"></div>
+                    
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="image2-112">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom">
+
+                    <div><img src="assets/images/screenshot-20160704-121235-1920x1920-43.png" class="mbr-figure__img"></div>
+                    <figcaption class="mbr-figure__caption">
+                        <small class="mbr-figure__caption-small">Your application will now resemble this, complete with 3 dot menu button!</small>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="header3-113">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">Adding the Styles and Settings&nbsp;</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-114">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Now that all of the setup steps are done, we can finally create a settings item and add the styles that go along with it. For the purposes of this tutorial I'm going to keep it simple and add only 1 option with a dark or a light theme, but once you get the hang of styles and Preference Fragments it takes very little time to add more.</p><p><br></p><p>Go to the "preferences.xml" file in your app/res/xml folder and add a list preference that looks like this:</p><pre>&lt;ListPreference<br>&nbsp; &nbsp; &nbsp; &nbsp; android:defaultValue="LightTheme"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:entries="@array/pref_theme_titles"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:entryValues="@array/pref_theme_values"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:key="themeSelection"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:summary="This preference lets you choose a theme for the app"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:title="Select Theme" /&gt;<br></pre><p>Again, this nests between the starting and ending PreferenceScreen tags. This file will end up looking like this:</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="image2-115">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom">
+
+                    <div><a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/xml/preferences.xml"><img src="assets/images/screen-shot-2016-07-04-at-12-654x266-13.png" class="mbr-figure__img"></a></div>
+                    <figcaption class="mbr-figure__caption">
+                        <small class="mbr-figure__caption-small"><p>This is the finished version of preferences.xml click <a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/xml/preferences.xml">HERE</a><a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/xml/preferences.xml"></a> to view the file on Github</p></small>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-116">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>In order to fix the errors above we must add the actual arrays that hold the items in the Preference Fragment. This is done through the auto-generated strings.xml file that is located in app/res/values/. Navigate to this file and add the following inside of the resources tags.</p><p>This top one is in charge of the displayed names for each theme</p><pre>&lt;string-array name="pref_theme_titles"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item&gt;Light"&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item&gt;Dark"&lt;/item&gt;<br>&nbsp; &nbsp; &lt;/string-array&gt;<br></pre><p>And the bottom string array is the actual setting item they reference, which can be grabbed from the sharedPreferenceManager.</p><pre>&nbsp; &nbsp; &lt;string-array name="pref_theme_values"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item&gt;"LightTheme"&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item&gt;"DarkTheme"&lt;/item&gt;<br>&nbsp; &nbsp; &lt;/string-array&gt;<br></pre><p>This file, when completed will look like this:</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="image2-117">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom">
+
+                    <div><a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/values/strings.xml"><img src="assets/images/screen-shot-2016-07-04-at-12-451x315-60.png" class="mbr-figure__img"></a></div>
+                    <figcaption class="mbr-figure__caption">
+                        <small class="mbr-figure__caption-small"><p>This is the finished version of strings.xml click <a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/values/strings.xml">HERE</a><a href="todo"></a> to view the file on Github</p></small>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="header3-118">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">Changing Colors</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-119">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>If you've made it this far you now have an Android app with a menu-button that allows you to change a setting, but nothing happens when the setting switches. This is dealt with through a custom java class that deals with changing theme on page loads and also with parsing the theme switches.</p><p>Make a new class called SetupTheme.java by right clicking the java -&gt; com.yourcompany.appname folder.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-slider mbr-section mbr-section--no-padding carousel slide" data-ride="carousel" data-wrap="true" data-interval="false" id="slider2-120">
+    <div class="mbr-section__container container article-slider mbr-section__container--middle">
+        <div class=" col-sm-8 col-sm-offset-2">
+            <ol class="carousel-indicators">
+                <li data-app-prevent-settings="" data-target="#slider2-120" class="active" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#slider2-120" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center active">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-right">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-1-1557x945-13.png">
+                            <div class="row">
+                                <div class=" col-md-6 col-md-offset-5">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--bg-adapted item dark center">
+                    <div class="mbr-box__magnet mbr-box__magnet--center-left">
+                                            
+                        <div>
+                            <img src="assets/images/screen-shot-2016-07-04-at-1-359x141-63.png">
+                            <div class="row">
+                                <div class=" col-md-6 col-md-offset-1">  
+
+                                <div class="mbr-hero">
+                                    
+
+                                    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a data-app-prevent-settings="" class="left carousel-control" role="button" data-slide="prev" href="#slider2-120">
+                <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a data-app-prevent-settings="" class="right carousel-control" role="button" data-slide="next" href="#slider2-120">
+                <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-121">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Fill this in with the following:&nbsp;</p><pre>public class SetupTheme {<br>&nbsp; &nbsp; public static void setupWindowTheme(Activity activity) {<br>&nbsp; &nbsp; &nbsp; &nbsp; SharedPreferences pref = PreferenceManager<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .getDefaultSharedPreferences(activity);<br>&nbsp; &nbsp; &nbsp; &nbsp; String themeName = pref.getString("themeSelection", "Theme");<br>&nbsp; &nbsp; &nbsp; &nbsp; switch (themeName) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; case "LightTheme":<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; activity.setTheme(R.style.LightTheme);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; case "DarkTheme":<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; activity.setTheme(R.style.DarkTheme);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break;<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; }<br>}</pre><p>This class can be called and given a view, and will apply the currently selected theme (read from the settings fragment you created earlier) to decide what color scheme to give the app. Right now you have errors on both of the R.style.* items because they haven't yet been created, but creating them is very easy.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="image2-122">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom">
+
+                    <div><a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/java/com/elijahbosley/themetutorial/SetupTheme.java"><img src="assets/images/screen-shot-2016-07-04-at-3-583x339-79.png" class="mbr-figure__img"></a></div>
+                    <figcaption class="mbr-figure__caption">
+                        <small class="mbr-figure__caption-small"><p>This is the finished version of SetupTheme.java, click <a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/java/com/elijahbosley/themetutorial/SetupTheme.java">HERE</a><a href="http://here"></a> to view the file on Github</p></small>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="header3-123">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">Creating Styles</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-124">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Now naviagate to your styles.xml file (also autogenerated) located inside app/res/values.</p><p><br></p><p>Inside of this is the base application theme, which is fine to leave if you want your app to boot with a different theme than you can select. For our purposes we will change it so that it is the light theme, and the dark theme is applied separately.&nbsp;</p><p>Update this file so that it has these two styles inside of it, one for the light theme and one for the dark theme:</p><p><strong>Light:</strong></p><pre>&nbsp;&lt;!-- Base application theme. --&gt;<br>&nbsp; &nbsp; &lt;style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Customize your theme here. --&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name="colorPrimary"&gt;@color/colorPrimary&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name="colorPrimaryDark"&gt;@color/colorPrimaryDark&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name="colorAccent"&gt;@color/colorAccent&lt;/item&gt;<br>&nbsp; &nbsp; &lt;/style&gt;</pre><p><strong>Dark</strong></p><pre>&nbsp; &nbsp; &lt;style name="DarkTheme" parent="Theme.AppCompat"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Customize your theme here. --&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name="colorPrimary"&gt;@color/colorPrimary&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name="colorPrimaryDark"&gt;@color/colorPrimaryDark&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name="colorAccent"&gt;@color/colorAccent&lt;/item&gt;<br>&nbsp; &nbsp; &lt;/style&gt;</pre><p>This file should now contain both of these items and your errors should be gone. Unfortunately themes don't work quite yet as we must update the app to launch with the LightTheme and add the SetupTheme function to every page we want to theme.</p><br><p>To fix the recently broken AppManifest issue, navigate to app/manifests then to AndroidManifest.xml. Just change the line that is red and says <strong>android:theme="@style/AppTheme" </strong>to instead say <strong>android:theme="@style/LightTheme"</strong></p><p>These files should end up looking like this:</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="image2-125">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom">
+
+                    <div><a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/values/styles.xml"><img src="assets/images/screen-shot-2016-07-04-at-3-636x365-48.png" class="mbr-figure__img"></a></div>
+                    <figcaption class="mbr-figure__caption">
+                        <small class="mbr-figure__caption-small"><p>This is the finished version of styles.xml, click <a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/res/values/styles.xml">HERE</a><a href="http://tes"></a> to view the file on Github</p></small>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="image2-126">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <figure class="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--caption-inside-bottom">
+
+                    <div><a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/AndroidManifest.xml"><img src="assets/images/screen-shot-2016-07-04-at-3-702x370-21.png" class="mbr-figure__img"></a></div>
+                    <figcaption class="mbr-figure__caption">
+                        <small class="mbr-figure__caption-small"><p>This is the finished version of AndroidManifest.xml, click <a href="https://github.com/XenthisX/ThemeTutorial/blob/master/app/src/main/AndroidManifest.xml">HERE</a><a href="http://tsdsa"></a> to view the file on Github</p></small>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="header3-127">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="mbr-header mbr-header--wysiwyg row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h3 class="mbr-header__text">Putting it All Together</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-128">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Getting all of the moving parts to cooperate is easy, just add this line to the onCreate method before the view is set on any file that you want to support your new themes:&nbsp;</p><pre>SetupTheme.setupWindowTheme(this);</pre><p>Unfortunately, we're not quite done. This is when I thought I had all of the stuff working together, but as you'll see if you try to run this the functionality is a little bit broken. You have to quit out of the app before it's even possible to see the main window's theme update, and the settings window theme doesn't update until you reopen settings. All of this is pretty easy to fix, so here goes...</p><p><br></p><p>In order to get the preference change to update the main window on the back button press, we need to add the override method for back button presses inside of the SettingsActivity.java file in the SettingsActivity class. This looks like this:&nbsp;</p><pre>&nbsp; &nbsp; @Override<br>&nbsp; &nbsp; public void onBackPressed() {<br>&nbsp; &nbsp; &nbsp; &nbsp; Intent i = new Intent(getApplicationContext(), MainActivity.class);<br>&nbsp; &nbsp; &nbsp; &nbsp; startActivity(i);<br>&nbsp; &nbsp; &nbsp; &nbsp; finish();<br>&nbsp; &nbsp; }</pre><p>This will redraw the main window when back is pressed, successfully applying the theme to it.</p><p>Next, if you desperately want the theme to apply the second the theme is changed you need to add a listener that will redraw the settings window when a setting changes. This requires you to implement SharedPreferenceChangeListener in your preferenceFragment class like this:</p><pre>public static class MyPreferenceFragment extends PreferenceFragment implements SharedPreferences.OnSharedPreferenceChangeListener</pre><p>This requires an Override method as well: onSharedPreferenceChange, which you can add below the onCreate method in the class. That looks like this:</p><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Override<br>&nbsp; &nbsp; &nbsp; &nbsp; public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println("key was: " + key);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (key != null) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (getActivity() != null) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; getActivity().recreate();<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br></pre><p>Finally, you need to add this line to the PreferenceFragment's class onCreate method, which registers the new listener</p><pre>PreferenceManager.getDefaultSharedPreferences(this.getActivity()).registerOnSharedPreferenceChangeListener(this);</pre><p>And that's it, now you have a themeable Android app that you can do whatever you would like with. </p><p>Hopefully I've helped answer some questions about how this process works, I know that I had trouble with it. If you need help with the process don't hesistate to reach out and contact me.</p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-gallery mbr-section mbr-section--no-padding" id="gallery2-129">
+    <!-- Gallery -->
+    <div class="container mbr-section__container mbr-gallery-layout-article mbr-section__container--last">
+        <div class=" col-sm-8 col-sm-offset-2">
+            <div class="row mbr-gallery-row no-gutter">
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
+
+                     
+
+                    <a href="#lb-gallery2-129" data-slide-to="0" data-toggle="modal">
+                        <img alt="" src="assets/images/screenshot-20160704-163239-1080x1920-72-1080x1920-87.png">
+                        <span class="icon glyphicon glyphicon-zoom-in"></span>
+                    </a>
+                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
+
+                     
+
+                    <a href="#lb-gallery2-129" data-slide-to="1" data-toggle="modal">
+                        <img alt="" src="assets/images/screenshot-20160704-160908-1080x1920-9-1080x1920-42.png">
+                        <span class="icon glyphicon glyphicon-zoom-in"></span>
+                    </a>
+                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
+
+                     
+
+                    <a href="#lb-gallery2-129" data-slide-to="2" data-toggle="modal">
+                        <img alt="" src="assets/images/screenshot-20160704-163243-1080x1920-99-1080x1920-94.png">
+                        <span class="icon glyphicon glyphicon-zoom-in"></span>
+                    </a>
+                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
+
+                     
+
+                    <a href="#lb-gallery2-129" data-slide-to="3" data-toggle="modal">
+                        <img alt="" src="assets/images/screenshot-20160704-163250-1080x1920-84-1080x1920-59.png">
+                        <span class="icon glyphicon glyphicon-zoom-in"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <!-- Lightbox -->
+    <div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery2-129">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <ol class="carousel-indicators">
+                        <li data-app-prevent-settings="" data-target="#lb-gallery2-129" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#lb-gallery2-129" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#lb-gallery2-129" class=" active" data-slide-to="2"></li><li data-app-prevent-settings="" data-target="#lb-gallery2-129" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item">
+                            <img alt="" src="assets/images/screenshot-20160704-163239-1080x1920-72.png">
+                        </div><div class="item">
+                            <img alt="" src="assets/images/screenshot-20160704-160908-1080x1920-9.png">
+                        </div><div class="item active">
+                            <img alt="" src="assets/images/screenshot-20160704-163243-1080x1920-99.png">
+                        </div><div class="item">
+                            <img alt="" src="assets/images/screenshot-20160704-163250-1080x1920-84.png">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" role="button" data-slide="prev" href="#lb-gallery2-129">
+                        <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" role="button" data-slide="next" href="#lb-gallery2-129">
+                        <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                    <a class="close" href="#" role="button" data-dismiss="modal">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                        <span class="sr-only">Close</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section mbr-section--relative mbr-section--short-paddings" id="msg-box2-130" style="background-color: rgb(255, 255, 255);">
+
+    
+
+    <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 60px; padding-bottom: 60px;">
+        <div class="row">
+            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
+                <div class="mbr-box__magnet mbr-box__magnet--top-left mbr-section__left col-sm-8">
+                    <div class="mbr-section__container">
+                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
+                            <h3 class="mbr-header__text">GITHUB REPO FOR THIS PROJECT</h3>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="mbr-box__magnet mbr-box__magnet--top-left mbr-section__right col-sm-4">
+                    <div class="mbr-section__container">
+                        <div class="mbr-buttons mbr-buttons--auto-align mbr-buttons--top mbr-buttons--left"><a class="mbr-buttons__btn btn btn-lg btn-default" href="https://github.com/XenthisX/ThemeTutorial/">GO TO GITHUB</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<footer class="mbr-section mbr-section--relative mbr-section--fixed-size" id="footer1-2" style="background-color: rgb(68, 68, 68);">
+    
+    <div class="mbr-section__container container">
+        <div class="mbr-footer mbr-footer--wysiwyg row" style="padding-top: 36.900000000000006px; padding-bottom: 36.900000000000006px;">
+            <div class="col-sm-12">
+                <p class="mbr-footer__copyright"></p><p>Copyright (c) 2016 Elijah Bosley.</p><br><p>Find me on&nbsp;<a href="https://github.com/xenthisx">Github</a>, <a href="https://www.linkedin.com/">Linkedin</a>, or<a href="mailto:ekbosley@gmail.com"> Email Me</a>.</p><p></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smooth-scroll/SmoothScroll.js"></script>
+  <script src="assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
+  <script src="assets/masonry/masonry.pkgd.min.js"></script>
+  <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/mobirise/js/script.js"></script>
+  <script src="assets/mobirise-gallery/script.js"></script>
+  
+  
+</body>
+</html>

@@ -109,6 +109,9 @@
             },
             ".mbr-article": {
               "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "text-align": "left"
             }
           },
           "_name": "msg-box4",
@@ -139,7 +142,7 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/imag0102-2688x1520-56.jpg",
+              "src": "@PROJECT_PATH@/assets/images/dsc-0295-1400x937-99.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -155,7 +158,7 @@
           "headerAlign": "left",
           "title": "ABOUT ME",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>My name is Eli Bosley.&nbsp;</p><p>I study software engineering at the Rochester Institute of Technology. &nbsp;I am passionate about my field and I've done a few cool projects. I just recently started doing Android development as well!</p>",
+          "text": "<p>My name is Eli Bosley.</p><p>I study software engineering at the Rochester Institute of Technology.</p><p> I am passionate about my field and I've done a few cool projects. </p><p>I just recently started doing Android Development, so check out my projects below!</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
@@ -1803,7 +1806,8 @@
             "showText": false,
             "bgColor": "#efefef",
             "fullWidth": false,
-            "noGutter": true
+            "noGutter": true,
+            "showBullets": true
           },
           "_anchor": "gallery1-51",
           "articleLayout": false
@@ -1900,7 +1904,8 @@
             "showText": false,
             "bgColor": "#efefef",
             "fullWidth": false,
-            "noGutter": true
+            "noGutter": true,
+            "showBullets": true
           },
           "_anchor": "gallery1-61",
           "articleLayout": false
@@ -2662,14 +2667,14 @@
           },
           "title1": "Android App Theming",
           "caption1": "",
-          "button1": "<a data-app-btn=\"true\" href=\"themesettings.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"android_themesettings.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media2": {
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/screenshot-20160619-124837-1080x1920-13.png",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
+              "link": "android_firstapp.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -2681,7 +2686,7 @@
           },
           "title2": "Creating My First Android App",
           "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "button2": "<a data-app-btn=\"true\" href=\"android.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">COMING SOON</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"android_firstapp.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "media3": {
             "image": {
               "active": true,
@@ -2745,7 +2750,205 @@
         }
       ]
     },
-    "themesettings.html": {
+    "android_firstapp.html": {
+      "settings": {
+        "title": "First Android App",
+        "meta_descr": "The first app I built"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-6",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Home",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-53\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-47\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RÉSUMÉ</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            }
+          },
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-131",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3C3C3C",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "MY FIRST ANDROID APP",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"android.html\" data-toolbar=\"-mbrBtnMove\">BACK TO ANDROID</a>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-133",
+          "title": "CREATING AN ANDROID APP ISN'T EASY",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "I decided to finally get into android development, as I’ve recently had more experience with larger scale application development, and I decided it would be good to document my journey. "
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-132",
+          "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;Currently I am experimenting with the Android TextClock as I want to make a clock that displays the time using text only. This will probably be a relatively complicated venture but I’m very excited to see how this sort of thing works on android. I already prefer the way UI development feels on Android as it seems to make a whole lot more sense than the previous experience I have doing UIs in Javafx.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;I started out following Google’s starting app development tutorial <a href=\"https://developer.android.com/training/basics/firstapp/index.html\">HERE</a>&nbsp;and quickly created the application below. I also added the ability to tap on the clock and switch the mode from 12 hour to 24 hour, which is kind of a cool feature.</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-140",
+          "_params": {
+            "outside": true,
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screenshot-20160619-133840-1400x2488-2.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-141",
+          "text": "<p>&nbsp; &nbsp; Then I got sidetracked… I made the mistake of following a tutorial on how to make an ToolBar, which unknown to me has changed since the release of Android Marshmallow. I followed the tutorial and managed to make the app look like this:</p>"
+        },
+        {
+          "_name": "image2",
+          "_anchor": "image2-136",
+          "_params": {
+            "outside": true,
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/screenshot-20160619-133133-1400x2488-8.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-137",
+          "text": "<p>Which is cool, but definitely not correct. At this point I decided the best thing to do might be to take out the old changes, so I began to learn how Marshmallow handles the “title bar”.</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;And it was easy to fix! I just had to stop using the toolbar asset I just painstakingly created (It’s about 10 lines of XML) and switched the styles.xml file to use “Theme.AppCompat.Light.DarkActionBar\" instead of \"Themes.AppCompat.NoActionBar\".</p><p>&nbsp;&nbsp;&nbsp;&nbsp;I next decided to work on getting the menu for a help screen working, which I thought would be a good idea in order to become more familiar with launching tasks out of the main window. I also wanted to add a settings screen eventually, so knowing how to add items to the menu and then use them would be very useful.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;The help screen became far more complicated than I had initially anticipated as I wanted to add author information, but I managed to finalize it to have a couple of tabs. I then moved on to working on theming, which was exhausting as there is no real complete documentation about how to correctly theme Android apps.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Creating a correctly theming program was actually so difficult for me I decided to create another blog about it that you can see <a href=\"android_themesettings.html\">HERE</a>, it basically required me to learn a whole lot of Java and Android stuff I didn’t understand, while also working with old tutorials that weren’t exactly up to date.</p><p>That’s about where the development for this app finished, below are some of the final result pictures from the app, but I’ve decided to move on</p><p><br></p>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_name": "gallery2",
+          "_params": {
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-20160619-133840-2000x3555-25-2000x3555-92.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-20160619-133840-2000x3555-25.png",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-20160703-201737-2000x3555-21-2000x3555-71.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-20160703-201737-2000x3555-21.png",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-20160703-201939-2000x3553-99-2000x3553-83.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-20160703-201939-2000x3553-99.png",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/screenshot-20160703-202208-2000x1125-36-2000x1125-43.png",
+                "image": "@PROJECT_PATH@/assets/images/screenshot-20160703-202208-2000x1125-36.png",
+                "active": false
+              }
+            ],
+            "showText": false,
+            "fullWidth": true,
+            "noGutter": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-139",
+          "articleLayout": true
+        }
+      ]
+    },
+    "android_themesettings.html": {
       "settings": {
         "title": "Creating Settings-based Theming for Android Apps",
         "meta_descr": "It's not as easy as I thought it would be."
@@ -3554,7 +3757,8 @@
             ],
             "showText": false,
             "fullWidth": true,
-            "noGutter": true
+            "noGutter": true,
+            "showBullets": true
           },
           "_anchor": "gallery2-129",
           "articleLayout": true
