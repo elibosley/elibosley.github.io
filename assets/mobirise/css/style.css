@@ -855,12 +855,65 @@ html {
 .mbr-figure__map {
   max-width: 100%;
 }
+@-webkit-keyframes mapCircleLoading {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@keyframes mapCircleLoading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 .mbr-figure__map {
   height: 400px;
-  line-height: 1.3em;
+  position: relative;
 }
 .mbr-figure__map--short {
   height: 300px;
+}
+.mbr-figure__map iframe {
+  height: 100%;
+  width: 100%;
+}
+.mbr-figure__map [data-state-details] {
+  color: #6b6763;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.mbr-figure__map[data-state] {
+  background: #e9e5dc;
+}
+.mbr-figure__map[data-state="loading"] [data-state-details] {
+  display: none;
+}
+.mbr-figure__map[data-state="loading"]::after {
+  content: "";
+  -webkit-animation: mapCircleLoading .6s infinite linear;
+  animation: mapCircleLoading .6s infinite linear;
+  border-radius: 50%;
+  border: 6px rgba(255, 255, 255, 0.35) solid;
+  border-top-color: #fff;
+  height: 40px;
+  left: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  width: 40px;
 }
 .mbr-figure__caption {
   background: rgba(0, 0, 0, 0.5);
