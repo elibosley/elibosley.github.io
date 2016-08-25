@@ -6,7 +6,7 @@
     "name": "Elijah Bosley",
     "favicon": "",
     "publishType": "local",
-    "publishPath": "file:///C:/Users/ekbos/Documents/GitHub/xenthisx.github.io",
+    "publishPath": "file:///C:/Users/ekbos/Documents/GitHub/elibosley.github.io",
     "path": "file:///C:/Users/ekbos/Documents/GitHub/xenthisx.github.io",
     "screenshot": "screenshot.png",
     "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-81188811-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>"
@@ -35,6 +35,46 @@
             },
             ".mbr-navbar__hamburger": {
               "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
             }
           },
           "_anchor": "menu-0",
@@ -159,7 +199,7 @@
           "headerAlign": "left",
           "title": "ABOUT ME",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>My name is Eli Bosley.</p><p>I study software engineering at the Rochester Institute of Technology.</p><p> I am passionate about my field - I've done a few cool projects. </p><p>I just recently started doing Android Development, so check out my projects below!</p>",
+          "text": "<p>My name is Eli Bosley.</p><p>I study software engineering at the Rochester Institute of Technology.</p><p>I just recently started doing Android Development, so check out my projects below!</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
@@ -167,6 +207,9 @@
           "_styles": {
             "P": {
               "text-align": "center"
+            },
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
             }
           },
           "_anchor": "features1-52",
@@ -865,6 +908,11 @@
               "font-size": "18px"
             }
           },
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-25",
           "text": "<p>&nbsp; &nbsp; I originally set out to build a computer and test its efficiency as well as its power usage. I also set out to learn a bit of HTML once the computer was tested and benchmarked using software like 3DMark and Prime95. My goals were to include “a custom water-cooling system with a pump and a reservoir to cool the processor” as well as, hopefully, “graphics [cooling], custom cable sleeving on the power supply and powerful components”.&nbsp;<br></p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;The most important component of a computer is the processor, as without it no calculations can take place and nothing can be accomplished. Typically, processors range in price from very cheap to extremely expensive, but most typical consumer processors fall around the 200-400 dollar range (D. C. Price). The low end processors are typically good enough for most consumers, while the high end market is for more niche uses, such as rendering video or rapidly calculating difficult mathematical problems. These higher end processors are dropping in price as time progresses, with Intel rolling out its least expensive enthusiast series processors yet (CPU World). These processors roll out in a tick-tock cycle, with the tick being a large jump and an architecture improvement, meaning a total design process change, while the tock is a smaller change that mostly results in better efficiency and reliability, rather than a large speed increase (Intel Corporation). The most recent desktop processor release is part of the tock cycle, but it has greater benefits due to the industry-wide rollout of DDR4 ram, ram modules manufactured at a greater density, which provides faster speeds and greater energy efficiencies. Although they are more expensive (Cambell) the most recent generation of Intel processors is a better choice for high end computing as they have long lasting benefits due to their use of newer memory technology and increase in cores. This increase in cores is sometimes not entirely useful, as some applications may not use the extra cores and are poorly optimized for an increase in threads. Competition between software components may occur, which can cause excessive slowness and issues for software that should have no trouble running normally (Hazelwood). This may seem like a problem that is not solvable, but modern software is becoming better and better at handling multiple cores, and I expect that within a few years almost all software will take advantage of more than 2 or 3 cores.</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;The graphics card or GPU is the second most important component in high-end computing as it handles most graphical calculations and displays the screen. All computers have a graphics card, but many only have a graphics rendering chip built into the processor. This works well for machines that are used for basic needs, but when rendering video or displaying video games more power is required. This is where a dedicated graphics card comes in. GPUs have thousands of cores, while CPUs typically have a few fast cores that can do really complex tasks fast, GPUs can do really simple tasks super-fast, allowing them to render images in a much more efficient manner, especially when compared to the computer processor (NVidia Corporation). This makes them perfect for creating images or building incredibly complex worlds out of millions of tiny dots, called pixels (NVidia Corporation). Recent research papers show that lower GPU temperatures, combined with higher clock speeds (how fast each computation can occur, usually measured in megahertz or gigahertz) allow lower voltages and therefore much greater power efficiency than previously believed (D. C. Price). This finding has both large-scale implications as well as real world application, as better power efficiency is very important to both end-users and large corporations. It also means that cooling is becoming exceptionally important.</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Liquid cooling is becoming a much more viable method of removing heat from computer systems. With an increase in consumer availability of computer parts, as well as increased interest from manufacturers and consumers in the extreme computing market, far greater numbers of liquid-cooled PCs are being built now than ever before (Schmidt). Server technology is also being cooled with liquid more often, as it is quieter and typically more energy efficient than running fans. Fluids are able to take heat directly away from the source, without having to create air to blow it away. This mean that there is much more heat dissipation, resulting in lower operating temperatures and more headroom for increasing speeds. Typical water-cooling systems are both simple and also straightforward – a pump circulates fluid, typically distilled water or some other fluid with a high heat capacity, through a closed loop of tubes, which are in turn connected to “blocks”, metal plates attached to hardware components that produce heat. These blocks act as heat sinks to pull heat away from the vital components in the computer. In order to dissipate the now tepid water, radiators are used, similar to how a car works, with fans that push the heat away. In some industrial cases, refrigerators are used to cool the liquid again, and excess heat is simply turned into condensation. This method of cooling is more efficient than air cooling because it cools only the components that produce heat, rather than a large part of the computer.&nbsp;</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;Hopefully this background information will help to understand more about the incredibly complicated process of choosing components that work together and are compatible, as well as figuring out the long and drawn-out process of putting them all together.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;This project began in September with testing an older computer and figuring out information about its power usage and the efficiency both under load and when idling. This desktop began drawing 78 watts with a power factor of 0.96 and used 90 volt amps. If I used Chrome or ran slightly strenuous processes the power usage jumped up to 120 watts. Meanwhile, while using benchmarking programs that stress computers to the max, this PC used 237 watts, but became more efficient in its power usage with a power factor of 0.98. The volt-amps while running the Kombustor (MSI) software the power usage jumps to 248 VA. If I ran Prime95 (Great Internet Mersenne Prime Search) as well, a common CPU stress testing utility to test overclocks by calculating Pi, my old system’s power usage jumped to 281 watts, using 284 VA and with a power factor of 0.99. This means that as a system increases in load, the power factor increases as well, an interesting realization: maybe computers more efficiently use power at full processor and graphics load.</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;This system, when compared to my old machine was low end, with an Intel i5 650 from around 2010, with an NVidia GTX 460 GPU from 2010 as well. If you were to compare my old computer to a typical machine that most people would own, it would run laps around them, but a high end system nowadays like the one that I have built is absolutely insane in comparison. The pictures below show both benchmarking programs that I used, as well as a picture of the setup that I had at this time, with the KillAWatt monitoring power usage.</p>"
         },
@@ -903,6 +951,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-27",
           "text": "<p>&nbsp; &nbsp; September also marked the beginning of my research into what components to purchase as well as budgeting in order to figure out what I could and couldn’t afford. I mostly focused on monitors at this time, and I began looking at higher resolution monitors that passed the 1080p barrier, as I wanted lots of uninterrupted screen space for doing homework and multitasking. I decided that I wanted a 2560x1440 pixel display that was IPS, which means In-Plane-Switching, a display type that results in a much higher quality picture. At this time I was thinking about the Dell U2713HM-IPS-LED or the Qnix Q2710, and I later decided on the QX2710 because of the price, even though I was guaranteed no defects with the Dell monitor.<br></p><p><br></p><p>&nbsp; &nbsp; Like September, much of October was taken up with research about what components I would buy as well as how much money I was going to be spending on the new machine. I realized more about the components that I wanted to purchase, although I began to hesitate on whether or not I wanted two GTX 970s or a GTX980. I also researched processors and reached a slight dilemma. I needed to decide on budget, but if I decided that $2500 ($1550 of which is from selling my old PC) was my budget I wanted to get really high end components. I was not sure if the benefits of DDR4 through Intel’s new Haswell-E processors was worth it, as I would have had to pay $589 for the processor with enough PCI-E lanes to support 3 GPUs in SLI (a technology that distributes graphics load between GPUs), which I actually later realized was incorrect (Crijns) as the lower end processors sported support for 3-way SLI as well.</p><p><br></p><p>&nbsp; &nbsp; I began making decisions in November, and I ordered the Qnix monitor on November 10th. This decision was based on a lot of factors, but mainly that it could be overclocked, a major goal of this project. That means higher refresh rates than the standard 60Hz which allows a less blurry view of videogames and benchmarks. The human eye can notice the difference between 60 and 90Hz, and I was excited to see what that means for day-to-day usage. When I eventually got the monitor, I was incredibly happy. It came with no dead pixels and no light bleeding, as well as some of the best color calibration I have ever seen in a display as you can see from the image below. I immediately overclocked it and I was even happier to learn that it could run at 120Hz, not just 96, meaning twice the refresh rate that it shipped with (lawson67).&nbsp;</p>"
         },
@@ -933,6 +986,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-29",
           "text": "<p>&nbsp; &nbsp; I decided on the i7 5820k for my processor of choice. This choice relied on a few key things, but primarily the upgrade path. DDR3 memory was released in 2008 (Murray), and since then it has been the standard type of memory for every motherboard. Only in the last 3 months has a new standard called DDR4 come out, and this standard is beginning to proliferate, starting with the highest-end devices and working its way down. Since I will be an early adopter of the platform, I have decided to take a leap and purchase a processor that supports this new standard. This, combined with the fact that having six physical cores is awesome, made me decide to purchase this processor.</p><p><br></p><p>&nbsp; &nbsp; Deciding on a motherboard was quite a bit trickier. I decided whether or not I want the size of my computer to be tiny or just normal, even though I could design a system that would fit in a tiny case, size is less important than speed. I believe that this decision helped me to build the most stable and reliable system I could. I initially decided on the Asus x-99a, but ended up spending $50 more to buy the x99-pro, simply because it had a covering that would make the computer much more aesthetically pleasing. I chose Asus because they historically have the most reliable motherboards with the best features. Asus motherboards also have a special socket for the processor called the OC socket, which has about 4x the pins of a typical x99 motherboard to allow for greater power transfer. I did not know if this would help me with real-world applications, but even if it did not I would still have been happy purchasing this motherboard.</p><p><br></p><p>&nbsp; &nbsp; Choosing the brand and speed of DDR4 RAM was a difficult decision, mostly because I had to make quite a few choices in the process. I initially had to decide if the upgrade to DDR4 was worth it, and, even though the difference was small, it was enough to justify buying into a faster platform. Secondly I had to decide if water-cooling my RAM was an option, and I decided that it would be better to simply rely on the heat spreaders built into the RAM as the low voltage and high density of new RAM means that it runs very cool. Another decision that I had to make was the speed. DDR4 memory is sold in a few speeds from stock (2133 MHz) to extremely overclocked (3333 MHz). I knew immediately that I did not want extreme speeds, because the pricing on factory overclocked sticks that ran that fast is insane, at least in the thousands. This meant that I had to choose a speed that I thought was worth it for my applications, so I settled on above 2133 but below 3000. My choice put me right in the middle of that spectrum, with 2400 MHz speed. Again, I changed my mind later because of price, but Corsair Vengeance LPX is what I decided on initially. I ended up purchasing the Crucial Ballistix Sport, because it had better timings, meaning less initial access latency, as well as a much better price, almost $100 cheaper.</p><p><br></p><p>&nbsp; &nbsp; The graphics card decision was a lot easier for me to make. I knew that I would be buying a graphics card from NVidia, even before the new generation of 900 series GPUs was released. This was because of a few key reasons, but primarily because I have purchased their products before and I am very happy with the results. I also knew that I could either choose the GTX 980 or the GTX 970, and this seemed like a hard decision until I realized that I could risk 3 way SLI with 970s, something that has not been very reliable in the past, or stick with what I know and use two GTX 980s. Once I decided that I wanted the GTX 980, the hard decision was figuring out specifically what brand I wanted. NVidia distributes its chips to different manufacturers, who then put it in their video cards and overclock them as well as install wicked heat-sinks in order to make money. I decided to look into water blocks for GTX 980s, and I found that I could buy a custom water block for ASUS Strix brand GPUs, with a laser engraved logo and much more metal than the generic water block. This settled my GPU and GPU water block decision in one fell swoop, and I purchased both the water block and two Strix 980s.</p><p><br></p><p>&nbsp; &nbsp; The case was easy, I knew I wanted enough space to hold everything and still have room to move around, and I also wanted to have something sleek and with sharp edges to complement the parts that I was getting. This eliminated a lot of choices, and after careful deliberation I decided to get a Corsair 750D, a case with a lot of features and dust filters that meant a much cleaner intake and output of air, so I would have to clean it less. This case also weighs much less than the case I used for my first computer, a thirty-five pound beast called the HAF-X. While that case was made of thicker metal, the Corsair case is much lighter at only twenty-one pounds.&nbsp;</p><p><br></p><p>&nbsp; &nbsp; In terms of water-cooling components, the choices were much more difficult and I relied heavily on forums and actual real world experiences to decide on the parts. The EK Supremacy EVO is a CPU water block that beats every other water block in almost every performance test, I decided to purchase it (Moonmanovich). I paid a bit more for a water block made of nickel coated copper entirely rather than a copper and nickel base with a plastic top, simply because I figured it would go well with the GPUs.</p><p><br></p><p>&nbsp; &nbsp; When it came to tubing as well as fittings, the choices were more aesthetically driven than anything. I knew I wanted to buy hard tubing, rather than the typical flexible tubing. This is because I wanted to have sharp edges and ninety degree bends that are only possible with solid tubing. In terms of material, I realized quickly that Acrylic tube, the typical tubing used for solid computer tubing applications, was too breakable and easy to shatter (Mods). I found PETG tubing, a type of plastic that is much more durable and even easier to manipulate, and I also figured out that it was an up-and-coming product in the PC water-cooling industry. I also wanted my computer to have a white and black color scheme, and after reading about how dyes can stain your tubes (rubix_1011), I decided to get white tubes rather than clear with dye.</p><p><br></p><p>&nbsp; &nbsp; This made other decisions about the fittings I would use very easy, and I bought Primochill Revolver fittings because they were the newest and most popular on the water-cooling scene. I also thought that they looked nice, and I bought a pack of ten which was the perfect amount for my entire system.</p><p><br></p><p>&nbsp; &nbsp; The pump was a bit more difficult, especially since I did not know anything about what was important in terms of speed, PSI, overall head, or other values that are advertised with pumps. Using a reference I found online (FrozenCPU), I realized that there were two main variants for pumps, the D5 and the DC12, and most others were simply rebranded versions of these two. I also knew that loudness was a concern, so I wanted to have the quietest and most efficient operation possible, so I decided to use a PWM or Pulse Width Modulation supporting pump. This means that the computer monitors the speeds and is able to control the rotation of the pump in order to reduce noise and strain that the pump goes through. This led me to choose the MCP655-PWM, a pump that is not very common but is based on an extremely common variant of pump, the MCP655. This pump has everything I’ve looked for, including PWM and extreme reliability, as well as power. I also needed a pump housing, a plastic enclosure that holds the pump and keeps it contained, while also making sure that it has input and output ports to allow for the attachment of tubing. This was easy to find, as I found a pump top that worked for my pump, and also worked with a reservoir attachment. The reservoir holds water and allows air bleeding out of the system, an important factor in keeping the computer as noise-free as possible. After selecting all of these components, there was one last thing that I needed to purchase in order to build a water-cooling loop, and that was a radiator…or two.</p><p><br></p><p>&nbsp; &nbsp; I ended up purchasing one 280mm radiator, which holds two or four 140mm fans, and one 360mm radiator, which holds three or six 120mm fans. This was an easy decision to make, as there’s not a lot of information on radiators other than simply that you buy ones that will fit in your case and that have the thickness that you need to dissipate the total wattage of your components. TDP is a number that manufacturers use to tell the maximum wattage that something will use, and typically the number is the max amount of power a component uses. Water-cooling quiet computers typically requires enough radiator space to dissipate 1.2 watts per mm of radiator, so one 120mm radiator dissipates 144 watts of power. With my PC, I have 2 GTX 980s (165w each) and one 5820k (140w) which totals up to 470 watts of total dissipation or a minimum of 390mm of radiators at the minimum.</p><p><br></p><p>&nbsp; &nbsp; Since I decided to buy one 360mm radiator and one 280mm radiator, I will have a total of 640mm of radiator space or 768w of heat dissipation capacity. This is far above the minimum, and it allows my computer to run silently even when playing videogames. I also found very high CFM or Cubic Feet/Minute fans, which means fast and powerful airflow through the radiators even at slow speeds.&nbsp;</p><p><br></p><p>&nbsp; &nbsp; The final components are the hard drives, two of which are for data storage and are simple spinning disks. The primary hard drive on the computer is a solid state drive, which means that instead of having one of these spinning disks, it has a circuit board with chips that store data, similar to a flash drive but astronomically faster. This difference in storage types results in much slower speeds for the secondary hard drives, both of which have a maximum read speed of 126 MB/s according to Western Digital’s specs sheet for the 1TB version of the Caviar Black Hard Drive (Western Digital). This, contrasted with the SSD, a Samsung 850 Evo, with speeds listed as 540 MB/s, is a huge difference (Samsung). Because the secondary storage on my PC will be primarily used for storing media like movies and games, the speed difference will be less noticeable, but I wanted to lessen the gap farther than it already was. That’s where RAID comes in.</p><p><br></p><p>&nbsp; &nbsp; RAID is a technology that is actually very old, and is an acronym that stands for Redundant Array of Independent Disks. This technology was invented for a few reasons: to offer an inexpensive way to have fast storage on servers, because at the time in 1987 there were few inexpensive and fast hard disks, and also to allow redundancy for data backups and to make storage less likely to fail. RAID is arranged into levels, from 0 to 5, with each one meaning something different.&nbsp;</p><p><br></p><p>&nbsp; &nbsp; I had another hard drive lying around that was the same type as the secondary disk I was planning on using, and for this reason I decided that RAID would be perfect for me. I ran a benchmark both before and after instituting a RAID 0 array, and I realized something amazing, I got literally twice the speeds from running two drives in parallel compared to each by themselves, as shown by the before and after benchmarks below, taken with ATTO Disk Benchmark (ATTO). The red bar is write and the green bar is read speeds, in megabytes per second.</p>"
         },
@@ -990,6 +1048,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-31",
           "text": "<p>&nbsp; &nbsp; When the time finally came to build my computer I already knew what they layout of tubing and parts would be due to many hours planning and diagramming inside of the case. Using a handy Microsoft Paint diagram made in 5 minutes during Pru’s class (my art teacher) as my guide, I began to start my construction.<br></p>"
         },
@@ -1020,6 +1083,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-33",
           "text": "<p>&nbsp; &nbsp; I began by flushing the radiators, a task that was relatively easy but also painful simply because holding a gallon of distilled in one hand and a big hunk of copper in the other isn’t a small feat.<br></p><p><br></p><p>&nbsp; &nbsp; After rinsing the radiators it was on to removing the GPUs and HDD cages, which was not too hard, and the computer quickly went from this:&nbsp;</p>"
         },
@@ -1050,6 +1118,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-35",
           "text": "<p>To this:</p>"
         },
@@ -1080,6 +1153,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-37",
           "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;Once basically everything except for the motherboard and processor were removed, I began the process of taking apart the GTX 980 STRIX graphics cards.<br></p><p><br></p><p>&nbsp; &nbsp; In the pictures below you can see me placing thermal pads on the VRMs of the GPU. VRM stands for Voltage Regulation Module, and it regulates the power that the GPU receives. After placing these pads on the graphics cards, more pads were applied to other parts of the card, and the shiny thing in the middle (the actual graphics chip) received an x pattern of thermal paste in order to be cooled properly. The wire is the fan cable wire from the previous heat sinks that were on the GPUs. This was difficult to remove, but I found a flat-head screwdriver did the trick.</p>"
         },
@@ -1138,6 +1216,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-39",
           "text": "<p>&nbsp; &nbsp; The water block was easy to install, just a few screws that bolted it to the card, and then the back plate bolted down on top of it. The next step, putting together the FC Terminal, a piece that links two GPUs was pretty straightforward as well. It required the removal of a part that allowed two tubes to connect to each GPU, and screwed right on. This was an easy process, and once it was finished the two GPUs became a solid block that could not be wiggled easily at all. I slotted this into a PCI bus, and began the next step of mounting the CPU water block.</p><p><br></p><p>&nbsp; &nbsp; The EK Supremacy EVO CPU Water block is a beautiful thing, and it is constructed of solid copper and plated with nickel. An interesting feature of this CPU water block is its ability to be opened in order to change parts, allowing customized performance based on the size and shape of the CPU being cooled. The picture below shows the micro-channels in the top of the block, which force water through themselves at high speeds to pull the heat off of the processor at very high speed. The lower part of the block, which actually faces upwards, has the jet-plate, a metal plate that can be switched with other plates that are thicker or thinner depending on the application. Installing this part was very easy, and simply required some thermal paste to be placed on the CPU before being screwed down in an X pattern to provide even coverage.</p><p><br></p>"
         },
@@ -1176,6 +1259,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-41",
           "text": "<p>&nbsp; The next step of the build process was to install the radiators, and they went in without a hitch, one with four fans on the front, and one with only three on the top. The picture to the right shows the 360mm radiator with fans attached, although I ended up turning this radiator around for aesthetic purposes. I did end up having a few missing screws, which turned out to not be a problem as there were many extra screws included in both radiator boxes.</p>"
         },
@@ -1206,6 +1294,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-43",
           "text": "<p>The final part of the build process was to install the tubing, and I managed to finish two tubes on the first day. Bending the tubes was incredibly painful, as I had to heat the PETG to the right temperature to bend, but not melt, and then bend quickly and precisely around a template that I made. I ended up messing this up enough that I could not finish the build, and I had to order more tubing. Once that arrived I made (decently) quick work (which means about 6 hours for 3 tubes). I also filled up the computer for the first boot with water-cooling. This was a very frightening experience as I had no idea whether there would be leaks or if the computer would even work. I was also worried that I had messed up the mounting on one of the GPUs and would be unable to run my computer until I opened the graphics card and redid the thermal paste. Luckily, this was not the case and the computer ran amazingly well, but without fan control.</p>"
         },
@@ -1236,6 +1329,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-45",
           "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;After figuring out that the cables I had received needed to be modified to allow for control over the fans, I immediately proceeded to snip the wrong ones and had to return them. A few days later I received new ones that would work, and installed them, making the computer quiet.<br></p><p><br></p><p>&nbsp; &nbsp; Towards the end of the project I decided that instead of using the LED controller that was included with the light strip that I installed in the computer I would switch to a microcontroller (a little computer) to allow for light control. I received an Arduino and a shield for it that will allow me to interface with the led strips in the computer. This will allow me to run programs on my computer to interface with the lights, allowing much finer control than I had before.</p><p><br></p><p>&nbsp; &nbsp; When I look back at this year and what I have accomplished I feel as if I have done a very good job of managing my time, especially considering all of the obstacles I have been faced with. There are a few times that I wish I had documented more in my journal, but other than that I feel as if I stayed very well within my initial schedule, aside from being unable to write a simple webpage. I felt as if that goal was a stretch from the beginning, so to me it is not a total loss. I also have begun to explore coding because of this project, as I am learning to make GUIs and use real programming languages for a practical use, even if that use is to control lights on this computer. I am incredibly excited to see where I can go from here, as I think there are many paths that this project will open for me.</p><p><br></p><p>&nbsp; &nbsp; Overall, I am happy with myself as an independent learner, and while there have been a few slow-downs throughout the duration of the project, my pace has been consistent due to my interest in the topic and the fact that I am used to independent classes through multiple independent projects through Tandem and robotics. This project has been an incredibly fun experience, and I plan on expanding it as the year progresses.&nbsp;</p>"
         },
@@ -1335,12 +1433,17 @@
         },
         {
           "_name": "buttons1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "buttons1-78",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://github.com/XenthisX/Resume/blob/master/Elijah%20Bosley%20Resume.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">GITHUB PAGE FOR RESUME</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://github.com/XenthisX/Resume/raw/master/Elijah%20Bosley%20Resume.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">RESUME DIRECT DOWNLOAD</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://github.com/XenthisX/Resume/blob/master/Elijah%20Bosley%20Resume.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">VIEW RESUME ON GITHUB</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://github.com/XenthisX/Resume/raw/master/Elijah%20Bosley%20Resume.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">RESUME DIRECT DOWNLOAD</a> "
         },
         {
           "_name": "image2",
-          "_anchor": "image2-71",
+          "_anchor": "image2-0",
           "_params": {
             "outside": false,
             "showText": false
@@ -1348,7 +1451,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/resume-2000x2588-12.png",
+              "src": "@PROJECT_PATH@/assets/images/capture-1400x1814-28.png",
               "class": "mbr-figure__img",
               "width": 1400,
               "link": "",
@@ -1500,6 +1603,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-56",
           "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;Using an Arduino Uno plus a Velleman KA02 LED Shield in order to power a strip of 5050 LED Lights, I was able to create a microcontroller based solution for my desire to have software control for the lighting on my desktop. Although this idea has been implemented by manufacturers in the forms of LED strips that can be plugged into a controller, the software implementations have always been lackluster, and the lighting strips have been pricey. I created a solution that is inexpensive and much more easily modifiable.&nbsp;</p>"
         },
@@ -1539,6 +1647,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-58",
           "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;The programming for this project was initially very simple, and consisted only of some sample code that I could modify based on the color I wanted the LEDs to change to. This quickly evolved into a serial based piece of software written in processing that can interface with the Arduino that communicates with the USB connection. The latest version of this software has eliminated any Arduino-side processing of data, and relies on Processing to do all the math, which is then sent to over USB using serial in the form of a 9 digit string of numbers.</p>"
         },
@@ -1577,6 +1690,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-60",
           "text": "<p>Features:</p><ul><li>Custom animations and light effects</li><li>HSB color settings, to increase usability, being translated to RGB codes through Processing libraries</li><li>Line-In audio processing, made possible through the Minim libraries and level processing code.</li></ul>"
         },
@@ -2007,6 +2125,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-69",
           "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;After moving into my dorm, and using a key for a week, I decided that there was a better way to unlock my door. Using an Adafruit NFC shield, a basic servo motor, lots of zip ties, and some programming, I was able to build an electronic door lock that isn't visible from the other side of the door, but can read MiFare cards through it.</p><p>&nbsp; &nbsp; Although the setup isn't pretty, it's extremely effective and only failed once in it's semester of service thus far. The cardboard holding the servo over the lock is especially effective since it allows for minor flexibility when the servo actuates which takes some torque away from the lock holding mechanism.</p><p>&nbsp; &nbsp; I am in the process of figuring out how to make my lock internet-enabled, in order to view the status of the lock and eventually be able to log in and change the lock status remotely</p><p>&nbsp; &nbsp; Find this project and others on my <a href=\"https://www.github.com/xenthisx\" target=\"_blank\">Github Page</a><br></p>"
         },
@@ -2320,6 +2443,11 @@
               "font-size": "19px"
             }
           },
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-11",
           "text": "<p>&nbsp; &nbsp; <b>TITAN</b>&nbsp;is the name that I gave to my senior project. While building a computer is fairly straightforward, involving simple slotting of parts into a chassis, Titan was a much more complex project. </p><p>&nbsp;&nbsp;&nbsp;&nbsp;Titan added difficulties of bending rigid PETG tubing and putting distilled water into a closed-loop pump system that I designed myself, as well as challenges in aesthetically pleasing computer design.<br></p>"
         },
@@ -2341,7 +2469,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showHeader": true,
+            "showHeader": false,
             "showSubheader": false,
             "columns": 4,
             "showImages": true,
@@ -2644,7 +2772,7 @@
             "columns": "2",
             "showImages": true,
             "showTitles": true,
-            "showCaptions": false,
+            "showCaptions": true,
             "showButtons": true
           },
           "headerAlign": "left",
@@ -2846,6 +2974,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-132",
           "text": "<p>&nbsp;&nbsp;&nbsp;&nbsp;Currently I am experimenting with the Android TextClock as I want to make a clock that displays the time using text only. This will probably be a relatively complicated venture but I’m very excited to see how this sort of thing works on android. I already prefer the way UI development feels on Android as it seems to make a whole lot more sense than the previous experience I have doing UIs in Javafx.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;I started out following Google’s starting app development tutorial <a href=\"https://developer.android.com/training/basics/firstapp/index.html\">HERE</a>&nbsp;and quickly created the application below. I also added the ability to tap on the clock and switch the mode from 12 hour to 24 hour, which is kind of a cool feature.</p>"
         },
@@ -2853,7 +2986,7 @@
           "_name": "image2",
           "_anchor": "image2-140",
           "_params": {
-            "outside": true,
+            "outside": false,
             "showText": false
           },
           "media": {
@@ -2876,6 +3009,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-141",
           "text": "<p>&nbsp; &nbsp; Then I got sidetracked… I made the mistake of following a tutorial on how to make an ToolBar, which unknown to me has changed since the release of Android Marshmallow. I followed the tutorial and managed to make the app look like this:</p>"
         },
@@ -2883,7 +3021,7 @@
           "_name": "image2",
           "_anchor": "image2-136",
           "_params": {
-            "outside": true,
+            "outside": false,
             "showText": false
           },
           "media": {
@@ -2906,6 +3044,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-137",
           "text": "<p>Which is cool, but definitely not correct. At this point I decided the best thing to do might be to take out the old changes, so I began to learn how Marshmallow handles the “title bar”.</p><p><br></p><p>&nbsp;&nbsp;&nbsp;&nbsp;And it was easy to fix! I just had to stop using the toolbar asset I just painstakingly created (It’s about 10 lines of XML) and switched the styles.xml file to use “Theme.AppCompat.Light.DarkActionBar\" instead of \"Themes.AppCompat.NoActionBar\".</p><p>&nbsp;&nbsp;&nbsp;&nbsp;I next decided to work on getting the menu for a help screen working, which I thought would be a good idea in order to become more familiar with launching tasks out of the main window. I also wanted to add a settings screen eventually, so knowing how to add items to the menu and then use them would be very useful.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;The help screen became far more complicated than I had initially anticipated as I wanted to add author information, but I managed to finalize it to have a couple of tabs. I then moved on to working on theming, which was exhausting as there is no real complete documentation about how to correctly theme Android apps.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Creating a correctly theming program was actually so difficult for me I decided to create another blog about it that you can see <a href=\"android_themesettings.html\">HERE</a>, it basically required me to learn a whole lot of Java and Android stuff I didn’t understand, while also working with old tutorials that weren’t exactly up to date.</p><p>That’s about where the development for this app finished, below are some of the final result pictures from the app, but I’ve decided to move on</p><p><br></p>"
         },
@@ -3049,6 +3192,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-77",
           "text": "<p>When I set out to make an application I wasn’t quite sure how difficult it was going to be to get the functionality that I wanted. I knew that I would run into different issues along the way but I wasn’t sure what would cause me issues and what would not, and creating dynamic themes caused me a lot more problems than I had anticipated that it would.</p><p><br></p><p>The main issue in my case was one of understanding. My Java knowledge was relatively weak (at least when it comes to full-scale application development) and my Android knowledge was close to none. This, combined with the way that Android handles activities and loading of styles made creating a working theme system difficult, so I wanted to create a page that makes the process easy to follow and understand, especially for newcomers.</p><p><br></p><p>My main goal in creating this article is to get more developers onboard with adding themability to their apps. I appreciate unified color schemes in some situations, but a lot of apps don't support themes (even big apps like Chrome) that I wish were more customizable. This will be partially dealt with when Android N is released with Night Mode, but even beyond that having customizable action-bars and styles is very nice.</p><p><br></p><p>I've divided this tutorial into a few easy steps..</p>"
         },
@@ -3063,6 +3211,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-79",
           "text": "<p>Android has a great function called setTheme that sets the styles for the View. This functions basically is responsible for loading the correct stylesheet when it is called. Unfortunately, it doesn't actually call any redraw functions, so any changes it makes are not applied until the app is restarted or the current view (window) is closed.</p>"
         },
@@ -3077,6 +3230,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-81",
           "text": "This part is pretty easy. Basically you just need to create a settings-fragment for every setting that you might want to change."
         },
@@ -3091,6 +3249,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-84",
           "text": "<p>This is necessary so that you can redraw a window and have the theme update. The method is called on the creation of every window and checks to see what theme should currently be loaded, then applies it.</p>"
         },
@@ -3105,6 +3268,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-86",
           "text": "<h3>1. Create a new Android Studio Application with an Empty Activity</h3>"
         },
@@ -3156,11 +3324,21 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-91",
           "text": "<h3>2. Create a Settiing Page</h3>"
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-92",
           "text": "<p>Let's create a settings page to manage the theme setting we will choose. This is easy, just right click on the app folder, mouse over to New -&gt; Activity -&gt; Empty Activity</p>"
         },
@@ -3191,6 +3369,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-95",
           "text": "Just name it SettingsActvity and leave the rest of the settings the default for now"
         },
@@ -3221,6 +3404,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-98",
           "text": "<p>Go ahead and open up the SettingsActivity.java file that was just created when you hit finish, and add these two things to it:</p><p>In the onCreate method, at the end:</p><pre>getFragmentManager().beginTransaction().replace(android.R.id.content, new MyPreferenceFragment()).commit();</pre><p>And as a separate class entirely:</p><pre>&nbsp; &nbsp; public static class MyPreferenceFragment extends PreferenceFragment {<br>&nbsp; &nbsp; &nbsp; &nbsp; @Override<br>&nbsp; &nbsp; &nbsp; &nbsp; public void onCreate(final Bundle savedInstanceState) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; super.onCreate(savedInstanceState);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; addPreferencesFromResource(R.xml.preferences);<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; }<br>}<br></pre><p>The top line is responsible for loading the preference fragment class that you created with the second snippet, and the bottom one loads a new XML file that must be created called preferences.xml. We'll create that next..</p>"
         },
@@ -3260,6 +3448,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-101",
           "text": "<p>Next, we need to add the actual preferences to this activity. This part is easy, just right click res and create a new resouce directory called \"xml\" with a resource type of \"xml\" as well.</p>"
         },
@@ -3300,6 +3493,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-103",
           "text": "<p>Then right click that new directory and add an xml file called \"preferences\" to it.</p>"
         },
@@ -3340,6 +3538,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-105",
           "text": "<p>Beofre we add any preferences to this file, we need to create a way to access this settings screen. In the MainActivity.java file for the project we must add a menu button and initialize it, which requires a couple of generic code snippets.</p><p>This snippet inflates the menu using another XML file we must create.</p><pre>@Override<br>&nbsp; &nbsp; public boolean onCreateOptionsMenu(Menu menu) {<br>&nbsp; &nbsp; &nbsp; &nbsp; // creates the menu<br>&nbsp; &nbsp; &nbsp; &nbsp; getMenuInflater().inflate(R.menu.menu_main, menu);<br>&nbsp; &nbsp; &nbsp; &nbsp; return true;<br>&nbsp; &nbsp; }<br></pre><p>This snippet is responsible for handling the selection of an item in the menu. We'll define the R.id.settings item right after this part with the menu definition.</p><pre>@Override<br>&nbsp; &nbsp; public boolean onOptionsItemSelected(MenuItem item) {<br>&nbsp; &nbsp; &nbsp; &nbsp; // handles actionbar item clicks here<br>&nbsp; &nbsp; &nbsp; &nbsp; int id = item.getItemId();<br>&nbsp; &nbsp; &nbsp; &nbsp; if (id == R.id.settings) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Intent intent = new Intent(this, SettingActivity.class);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; startActivity(intent);<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; return super.onOptionsItemSelected(item);<br>&nbsp; &nbsp; }</pre><p><br></p><p>Below is the entirety of the MainActivity.java file, excluding imports which AndroidStudio will automatically pick up and do for you.</p>"
         },
@@ -3379,6 +3582,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-108",
           "text": "<p>Exactly like before when we made the preferences.xml file, we must create a menu_main.xml file, nested inside of the menu directory.</p>"
         },
@@ -3441,6 +3649,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-110",
           "text": "<p>Once you've created this file you need to add a single item to it, which will look like this:</p><pre>&lt;item<br>&nbsp; &nbsp; &nbsp; &nbsp; android:id=\"@+id/settings\"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:title=\"Settings\" /&gt;<br></pre><p>This code snippet goes right between the menu tags, as such:&nbsp;</p>"
         },
@@ -3511,6 +3724,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-114",
           "text": "<p>Now that all of the setup steps are done, we can finally create a settings item and add the styles that go along with it. For the purposes of this tutorial I'm going to keep it simple and add only 1 option with a dark or a light theme, but once you get the hang of styles and Preference Fragments it takes very little time to add more.</p><p><br></p><p>Go to the \"preferences.xml\" file in your app/res/xml folder and add a list preference that looks like this:</p><pre>&lt;ListPreference<br>&nbsp; &nbsp; &nbsp; &nbsp; android:defaultValue=\"LightTheme\"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:entries=\"@array/pref_theme_titles\"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:entryValues=\"@array/pref_theme_values\"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:key=\"themeSelection\"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:summary=\"This preference lets you choose a theme for the app\"<br>&nbsp; &nbsp; &nbsp; &nbsp; android:title=\"Select Theme\" /&gt;<br></pre><p>Again, this nests between the starting and ending PreferenceScreen tags. This file will end up looking like this:</p>"
         },
@@ -3541,6 +3759,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-116",
           "text": "<p>In order to fix the errors above we must add the actual arrays that hold the items in the Preference Fragment. This is done through the auto-generated strings.xml file that is located in app/res/values/. Navigate to this file and add the following inside of the resources tags.</p><p>This top one is in charge of the displayed names for each theme</p><pre>&lt;string-array name=\"pref_theme_titles\"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item&gt;Light\"&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item&gt;Dark\"&lt;/item&gt;<br>&nbsp; &nbsp; &lt;/string-array&gt;<br></pre><p>And the bottom string array is the actual setting item they reference, which can be grabbed from the sharedPreferenceManager.</p><pre>&nbsp; &nbsp; &lt;string-array name=\"pref_theme_values\"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item&gt;\"LightTheme\"&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item&gt;\"DarkTheme\"&lt;/item&gt;<br>&nbsp; &nbsp; &lt;/string-array&gt;<br></pre><p>This file, when completed will look like this:</p>"
         },
@@ -3580,6 +3803,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-119",
           "text": "<p>If you've made it this far you now have an Android app with a menu-button that allows you to change a setting, but nothing happens when the setting switches. This is dealt with through a custom java class that deals with changing theme on page loads and also with parsing the theme switches.</p><p>Make a new class called SetupTheme.java by right clicking the java -&gt; com.yourcompany.appname folder.</p>"
         },
@@ -3620,6 +3848,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-121",
           "text": "<p>Fill this in with the following:&nbsp;</p><pre>public class SetupTheme {<br>&nbsp; &nbsp; public static void setupWindowTheme(Activity activity) {<br>&nbsp; &nbsp; &nbsp; &nbsp; SharedPreferences pref = PreferenceManager<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .getDefaultSharedPreferences(activity);<br>&nbsp; &nbsp; &nbsp; &nbsp; String themeName = pref.getString(\"themeSelection\", \"Theme\");<br>&nbsp; &nbsp; &nbsp; &nbsp; switch (themeName) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; case \"LightTheme\":<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; activity.setTheme(R.style.LightTheme);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; case \"DarkTheme\":<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; activity.setTheme(R.style.DarkTheme);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break;<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; }<br>}</pre><p>This class can be called and given a view, and will apply the currently selected theme (read from the settings fragment you created earlier) to decide what color scheme to give the app. Right now you have errors on both of the R.style.* items because they haven't yet been created, but creating them is very easy.</p>"
         },
@@ -3659,6 +3892,11 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-124",
           "text": "<p>Now naviagate to your styles.xml file (also autogenerated) located inside app/res/values.</p><p><br></p><p>Inside of this is the base application theme, which is fine to leave if you want your app to boot with a different theme than you can select. For our purposes we will change it so that it is the light theme, and the dark theme is applied separately.&nbsp;</p><p>Update this file so that it has these two styles inside of it, one for the light theme and one for the dark theme:</p><p><b>Light:</b></p><pre>&nbsp;&lt;!-- Base application theme. --&gt;<br>&nbsp; &nbsp; &lt;style name=\"LightTheme\" parent=\"Theme.AppCompat.Light.DarkActionBar\"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Customize your theme here. --&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name=\"colorPrimary\"&gt;@color/colorPrimary&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name=\"colorPrimaryDark\"&gt;@color/colorPrimaryDark&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name=\"colorAccent\"&gt;@color/colorAccent&lt;/item&gt;<br>&nbsp; &nbsp; &lt;/style&gt;</pre><p><b>Dark</b></p><pre>&nbsp; &nbsp; &lt;style name=\"DarkTheme\" parent=\"Theme.AppCompat\"&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Customize your theme here. --&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name=\"colorPrimary\"&gt;@color/colorPrimary&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name=\"colorPrimaryDark\"&gt;@color/colorPrimaryDark&lt;/item&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp; &lt;item name=\"colorAccent\"&gt;@color/colorAccent&lt;/item&gt;<br>&nbsp; &nbsp; &lt;/style&gt;</pre><p>This file should now contain both of these items and your errors should be gone. Unfortunately themes don't work quite yet as we must update the app to launch with the LightTheme and add the SetupTheme function to every page we want to theme.</p><br><p>To fix the recently broken AppManifest issue, navigate to app/manifests then to AndroidManifest.xml. Just change the line that is red and says <b>android:theme=\"@style/AppTheme\" </b>to instead say <b>android:theme=\"@style/LightTheme\"</b></p><p>These files should end up looking like this:</p>"
         },
@@ -3723,8 +3961,13 @@
         },
         {
           "_name": "content1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
           "_anchor": "content1-128",
-          "text": "<p>Getting all of the moving parts to cooperate is easy, just add this line to the onCreate method before the view is set on any file that you want to support your new themes:&nbsp;</p><pre>SetupTheme.setupWindowTheme(this);</pre><p>Unfortunately, we're not quite done. This is when I thought I had all of the stuff working together, but as you'll see if you try to run this the functionality is a little bit broken. You have to quit out of the app before it's even possible to see the main window's theme update, and the settings window theme doesn't update until you reopen settings. All of this is pretty easy to fix, so here goes...</p><p><br></p><p>In order to get the preference change to update the main window on the back button press, we need to add the override method for back button presses inside of the SettingsActivity.java file in the SettingsActivity class. This looks like this:&nbsp;</p><pre>&nbsp; &nbsp; @Override<br>&nbsp; &nbsp; public void onBackPressed() {<br>&nbsp; &nbsp; &nbsp; &nbsp; Intent i = new Intent(getApplicationContext(), MainActivity.class);<br>&nbsp; &nbsp; &nbsp; &nbsp; startActivity(i);<br>&nbsp; &nbsp; &nbsp; &nbsp; finish();<br>&nbsp; &nbsp; }</pre><p>This will redraw the main window when back is pressed, successfully applying the theme to it.</p><p>Next, if you desperately want the theme to apply the second the theme is changed you need to add a listener that will redraw the settings window when a setting changes. This requires you to implement SharedPreferenceChangeListener in your preferenceFragment class like this:</p><pre>public static class MyPreferenceFragment extends PreferenceFragment implements SharedPreferences.OnSharedPreferenceChangeListener</pre><p>This requires an Override method as well: onSharedPreferenceChange, which you can add below the onCreate method in the class. That looks like this:</p><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Override<br>&nbsp; &nbsp; &nbsp; &nbsp; public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(\"key was: \" + key);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (key != null) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (getActivity() != null) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; getActivity().recreate();<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br></pre><p>Finally, you need to add this line to the PreferenceFragment's class onCreate method, which registers the new listener</p><pre>PreferenceManager.getDefaultSharedPreferences(this.getActivity()).registerOnSharedPreferenceChangeListener(this);</pre><p>And that's it, now you have a themeable Android app that you can do whatever you would like with. </p><p>Hopefully I've helped answer some questions about how this process works, I know that I had trouble with it. If you need help with the process don't hesistate to reach out and contact me.</p>"
+          "text": "<p>Getting all of the moving parts to cooperate is easy, just add this line to the onCreate method before the view is set on any file that you want to support your new themes:&nbsp;</p><pre>SetupTheme.setupWindowTheme(this);</pre><p>Unfortunately, we're not quite done. This is when I thought I had all of the stuff working together, but as you'll see if you try to run this the functionality is a little bit broken. You have to quit out of the app before it's even possible to see the main window's theme update, and the settings window theme doesn't update until you reopen settings. All of this is pretty easy to fix, so here goes...</p><p><br></p><p>In order to get the preference change to update the main window on the back button press, we need to add the override method for back button presses inside of the SettingsActivity.java file in the SettingsActivity class. This looks like this:&nbsp;</p><pre>&nbsp; &nbsp; @Override<br>&nbsp; &nbsp; public void onBackPressed() {<br>&nbsp; &nbsp; &nbsp; &nbsp; Intent i = new Intent(getApplicationContext(), MainActivity.class);<br>&nbsp; &nbsp; &nbsp; &nbsp; startActivity(i);<br>&nbsp; &nbsp; &nbsp; &nbsp; finish();<br>&nbsp; &nbsp; }</pre><p>This will redraw the main window when back is pressed, successfully applying the theme to it.</p><p>Next, if you desperately want the theme to apply the second the theme is changed you need to add a listener that will redraw the settings window when a setting changes. This requires you to implement SharedPreferenceChangeListener in your preferenceFragment class like this:</p><pre>public static class MyPreferenceFragment extends PreferenceFragment implements SharedPreferences.OnSharedPreferenceChangeListener</pre><p>This requires an Override method as well: onSharedPreferenceChange, which you can add below the onCreate method in the class. That looks like this:</p><pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Override<br>&nbsp; &nbsp; &nbsp; &nbsp; public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(\"key was: \" + key);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (key != null) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (getActivity() != null) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; getActivity().recreate();<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br></pre><p>Finally, you need to add this line to the PreferenceFragment's class onCreate method, which registers the new listener</p><pre>PreferenceManager.getDefaultSharedPreferences(this.getActivity()).registerOnSharedPreferenceChangeListener(this);</pre><p>And that's it, now you have a themeable Android app that you can do whatever you want with.</p><p>Hopefully I've helped answer some questions about how this process works. If you need help with the process, don't hesistate to reach out and contact me.</p>"
         },
         {
           "_inherit": "gallery1",
