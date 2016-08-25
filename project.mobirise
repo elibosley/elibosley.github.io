@@ -257,7 +257,7 @@
           },
           "title1": "GITHUB",
           "caption1": "Check out my Github to see the code I've written for my projects.<br>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://github.com/XenthisX\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MY GITHUB</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://github.com/elibosley\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MY GITHUB</a>",
           "media2": {
             "image": {
               "active": true,
