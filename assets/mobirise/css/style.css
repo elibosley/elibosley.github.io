@@ -1538,10 +1538,15 @@ html {
   margin: 0;
   padding: 0;
 }
+.mbr-plan__details ul {
+  text-align: center;
+}
 .mbr-plan__details li,
 .mbr-plan__item {
   line-height: 40px;
   padding: 0 15px;
+}
+.mbr-plan__item {
   text-align: center;
 }
 .mbr-plan__buttons {

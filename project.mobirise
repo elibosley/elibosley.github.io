@@ -135,7 +135,7 @@
             "showButtons": true,
             "showArrow": true
           },
-          "title": "Hi, I'm Eli.<br><br>",
+          "title": "Hi, I'm Elijah Bosley.<br><br>",
           "text": "Welcome to my website, scroll down to learn more about my projects!",
           "buttons": "  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"downloads.html\" data-toolbar=\"-mbrBtnMove\">RÉSUMÉ</a>"
         },
@@ -199,7 +199,7 @@
           "headerAlign": "left",
           "title": "ABOUT ME",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>My name is Eli Bosley.</p><p>I study software engineering at the Rochester Institute of Technology.</p><p>I just recently started doing Android Development, so check out my projects below!</p>",
+          "text": "<p>My name is Elijah Bosley.</p><p>I study software engineering at the Rochester Institute of Technology.</p><p>I'm passionate about technology and programming and I created this website to showcase some of my work, as well as give a general overview of what I'm up to.</p><p><br></p><p>I just started doing Android development, so check it out in my projects!</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
@@ -418,7 +418,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#f97352",
+            "bgColor": "#4c6972",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -454,7 +454,7 @@
           "headerAlign": "left",
           "title": "WATERCOOLED DESKTOP",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>For my Senior Project in High School I designed and built an open-loop watercooled computer.</p>",
+          "text": "<p>I designed and built a watercooled computer.</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"desktop.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
@@ -471,14 +471,14 @@
             }
           },
           "_name": "msg-box4",
-          "_anchor": "msg-box4-11",
+          "_anchor": "msg-box4-72",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/panorama-4418x878-78.jpg",
-            "bgColor": "#9365b8",
+            "bgImage": "@PROJECT_PATH@/assets/images/20160628-204701-3648x1280-98.jpg",
+            "bgColor": "#f97352",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -498,8 +498,8 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/imag0004-2688x1520-78.jpg",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/screenshot-20160703-202208-1920x1080-18.png",
+              "link": "android.html",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -512,10 +512,10 @@
             }
           },
           "headerAlign": "left",
-          "title": "SMD-LED CONTROLLER",
+          "title": "ANDROID DEVELOPMENT",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "My PC had to be special, so I assembled an Arduino shield for 5050 SMD LED light strips and wrote custom software to control them.",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"ledcontroller.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+          "text": "Check out my most recent Android related projects here.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"android.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
           "_styles": {
@@ -591,14 +591,14 @@
             }
           },
           "_name": "msg-box4",
-          "_anchor": "msg-box4-72",
+          "_anchor": "msg-box4-11",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/20160628-204701-3648x1280-98.jpg",
-            "bgColor": "#f97352",
+            "bgImage": "@PROJECT_PATH@/assets/images/panorama-4418x878-78.jpg",
+            "bgColor": "#9365b8",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -618,8 +618,8 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/screenshot-20160703-202208-1920x1080-18.png",
-              "link": "android.html",
+              "src": "@PROJECT_PATH@/assets/images/imag0004-2688x1520-78.jpg",
+              "link": "",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
@@ -632,10 +632,10 @@
             }
           },
           "headerAlign": "left",
-          "title": "ANDROID DEVELOPMENT",
+          "title": "SMD-LED CONTROLLER",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "Check out my most recent Android related projects here.",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"android.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+          "text": "My PC had to be special, so I assembled an Arduino shield for 5050 SMD LED light strips and wrote custom software to control them.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"ledcontroller.html\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         }
       ]
     },
