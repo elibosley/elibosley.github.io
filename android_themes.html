@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Site made with Mobirise Website Builder v3.12.1, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v3.12.1, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/images/logoanimatedbl.gif" type="image/x-icon">
+  <meta name="description" content="An application designed to help get started on theming Android applications easily and efficiently.">
+  <title>Android Theming</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+  <link rel="stylesheet" href="assets/bootstrap-material-design-font/css/material.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/animate.css/animate.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+<section id="menu-14">
+
+    <nav class="navbar navbar-dropdown bg-color transparent navbar-fixed-top">
+        <div class="container">
+
+            <div class="mbr-table">
+                <div class="mbr-table-cell">
+
+                    <div class="navbar-brand">
+                        <a href="https://mobirise.com" class="navbar-logo"><img src="assets/images/logoanimatedbl.gif" alt="Mobirise"></a>
+                        <a class="navbar-caption" href="https://mobirise.com"></a>
+                    </div>
+
+                </div>
+                <div class="mbr-table-cell">
+
+                    <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                        <div class="hamburger-icon"></div>
+                    </button>
+
+                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar"><li class="nav-item"><a class="nav-link link" href="index.html"><p>Home&nbsp;</p></a></li><li class="nav-item"><a class="nav-link link" href="index.html#msg-box5-2"><p>About</p></a></li><li class="nav-item"><a class="nav-link link" href="index.html#features6-5">Contact</a></li><li class="nav-item"><a class="nav-link link" href="index.html#msg-box8-6"><p>Projects</p></a></li><li class="nav-item nav-btn"><a class="nav-link btn btn-white btn-white-outline" href="resume.html">My Resume</a></li></ul>
+                    <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                        <div class="close-icon"></div>
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+</section>
+
+<section class="engine"><a rel="external" href="https://mobirise.com">Mobirise</a></section><section class="mbr-section article mbr-parallax-background mbr-after-navbar" id="msg-box8-15" style="background-image: url(assets/images/mbr-2000x1125.jpg); padding-top: 120px; padding-bottom: 120px;">
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(34, 34, 34);">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-xs-center">
+                <h3 class="mbr-section-title display-2">Android Themes</h3>
+                <div class="lead"><p>How to create a simple app template that supports dynamic theme switching</p></div>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="mbr-section mbr-section__container article" id="header3-16" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="mbr-section-title display-2">CREATING SETTINGS-BASED ANDROID THEMES</h3>
+                <small class="mbr-section-subtitle">By Elijah Bosley, posted June 4th, 2016</small>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article mbr-section__container" id="content1-17" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 lead"><p></p><p></p><p></p><p>When I set out to make an application I wasn’t quite sure how difficult it was going to be to get the functionality that I wanted. I knew that I would run into different issues along the way but I wasn’t sure what would cause me issues and what would not, and creating dynamic themes caused me a lot more problems than I had anticipated that it would.</p><p><br></p><p>The main issue in my case was one of understanding. My Java knowledge was relatively weak (at least when it comes to full-scale application development) and my Android knowledge was close to none. This, combined with the way that Android handles activities and loading of styles made creating a working theme system difficult, so I wanted to create a page that makes the process easy to follow and understand, especially for newcomers.</p><p><br></p><p>My main goal in creating this article is to get more developers onboard with adding themability to their apps. I appreciate unified color schemes in some situations, but a lot of apps don't support themes (even big apps like Chrome) that I wish were more customizable. This will be partially dealt with when Android N is released with Night Mode, but even beyond that having customizable action-bars and styles is very nice.</p><p><br></p><p>I've divided this tutorial into a few easy steps:</p><p><br></p><h3>Step 1:</h3><p>Understand how Android loads themes</p><p><br></p><p>Android has a great function called setTheme that sets the styles for the View. This functions basically is responsible for loading the correct stylesheet when it is called. Unfortunately, it doesn't actually call any redraw functions, so any changes it makes are not applied until the app is restarted or the current view (window) is closed.</p><p><br></p><h3>Step 2:</h3><p></p><p><font face="Lora, serif"><span style="font-size: 17.600000381469727px; line-height: 20.799999237060547px;"><em>Create a settings activity</em></span></font></p><p><font face="Lora, serif"><span style="font-size: 17.600000381469727px; line-height: 20.799999237060547px;"><em><br></em></span></font></p><p>This part is pretty easy. Basically you just need to create a settings-fragment for every setting that you might want to change.</p><p><br></p><h3>Step 3:</h3><p><em>Create a function that loads themes when their onCreate method is called</em></p><p><br></p><p>This is necessary so that you can redraw a window and have the theme update. The method is called on the creation of every window and checks to see what theme should currently be loaded, then applies it.</p><p><br></p><p><br></p><h2>Tutorial:</h2><h3>Coming soon</h3><p></p><p></p></div>
+        </div>
+    </div>
+
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smooth-scroll/smooth-scroll.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/touch-swipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/viewport-checker/jquery.viewportchecker.js"></script>
+  <script src="assets/jarallax/jarallax.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  
+  
+  <input name="animation" type="hidden">
+   <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon"></i></a></div>
+  </body>
+</html>
