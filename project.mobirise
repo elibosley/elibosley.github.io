@@ -151,7 +151,7 @@
           },
           "title": "Elijah Bosley",
           "text": "<br><br>Scroll down to learn more about what I do!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://elijahbosley.com/downloads.html\" data-toolbar=\"-mbrBtnMove\">My Resume</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"resume.html\" data-toolbar=\"-mbrBtnMove\">My Resume</a> "
         },
         {
           "_tags": [
