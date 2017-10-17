@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Elijah Bosley - Mobirise 3",
-    "currentPage": "index.html",
+    "currentPage": "android_themes.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -23,7 +23,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 64,
-    "versionPublish": "3.12.1",
+    "versionPublish": "4.3.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
   },
@@ -31,7 +31,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -93,17 +93,17 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#28324e",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -131,23 +131,23 @@
           "_name": "header1",
           "_anchor": "header1-1",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/dsc-2000x1338.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "title": "Elijah Bosley",
           "text": "<br><br>Scroll down to learn more about what I do!",
@@ -165,25 +165,25 @@
           },
           "_anchor": "msg-box5-2",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
             "imageSize": "27",
             "paddingTop": "1",
             "paddingBottom": "1",
-            "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -208,7 +208,7 @@
             }
           },
           "title": "About Me",
-          "text": "Hi! My name is Elijah Bosley and I'm a software engineering student at the Rochester Institute of Technology. I enjoy creating cool projects and building things using awesome new technology.<br><br>I also love ballroom dancing and caving in my free time!",
+          "text": "Hi! My name is Elijah Bosley and I'm a third year studyingcomputer science at the University of Virginia. I enjoy creating cool projects and building things using awesome new technologies.<br><br>Some of my hobbies include ballroom dancing, hiking, and caving.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -219,26 +219,26 @@
           "_name": "features6",
           "_anchor": "features6-5",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -346,23 +346,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-6",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1328.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": false,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "Projects",
           "text": "<p>Article header with background image and parallax effect.</p>",
@@ -375,26 +375,26 @@
           "_name": "features3",
           "_anchor": "features3-8",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -492,26 +492,26 @@
           "_name": "features3",
           "_anchor": "features3-9",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "image": {
@@ -661,17 +661,17 @@
           "_name": "menu",
           "_anchor": "menu-c",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#28324e",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -679,7 +679,7 @@
               "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -705,24 +705,24 @@
           },
           "_anchor": "msg-box1-d",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": false,
             "paddingTop": "4",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#000000",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showButtons": true,
-            "showText": false,
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://github.com/elibosley/TextClockWidget\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">GitHub</a>  <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://play.google.com/store/apps/details?id=com.elijahbosley.textclockwidget\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-download mbr-iconfont mbr-iconfont-btn\"></span>Download</a>",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
@@ -745,24 +745,24 @@
           },
           "_anchor": "header2-m",
           "_params": {
-            "imageSize": "41",
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/20160826-2000x1500.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
-            "inverse": false,
             "showTitle": true,
             "showText": false,
             "showButtons": true,
-            "showArrow": false
+            "inverse": false,
+            "showArrow": false,
+            "imageSize": "41",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/20160826-2000x1500.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
           },
           "media": {
             "image": {
@@ -853,17 +853,17 @@
           "_name": "menu",
           "_anchor": "menu-n",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#28324e",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -871,7 +871,7 @@
               "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -892,25 +892,25 @@
           "_name": "header4",
           "_anchor": "header4-q",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#a07e49",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": true,
             "bgVideo": {
               "width": 1280,
               "height": 720,
               "url": "https://www.youtube.com/embed/z2PE1qf3GBg?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "center",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "title": "Flushed To Learn",
           "text": "A Smart Toilet project, uses a Raspberry Pi, Arduino, Leds, and a Bluetooth speaker to play songs when a toilet is flushed.",
@@ -930,26 +930,26 @@
           },
           "_anchor": "features6-r",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "5",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "5",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -1069,22 +1069,22 @@
           "_name": "content5",
           "_anchor": "content5-t",
           "_params": {
+            "showTitle": true,
+            "showCaption": true,
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
-            "bgColor": "#f28281",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#f28281",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "showTitle": true,
-            "showCaption": true
+            "overlayOpacity": 0.5
           },
           "title": "Hardware",
           "caption": "<p>Flushed to Learn uses a Raspberry Pi 3 as its main processing unit, with an Arduino Uno providing light control. The sound is played through a Bluetooh speaker that is paired to the Raspberry Pi. </p><p>All of these components are housed in a relatively small box, and the flushing sounds and effects are triggered by a push button wired directly to a pin on the Raspberry Pi</p>"
@@ -1108,22 +1108,22 @@
           "_name": "content5",
           "_anchor": "content5-v",
           "_params": {
+            "showTitle": true,
+            "showCaption": true,
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "showTitle": true,
-            "showCaption": true
+            "overlayOpacity": 0.5
           },
           "title": "Software",
           "caption": "<p>The project uses a combination of different services to provide song selection to users through a website and play sounds on the Raspberry Pi. </p><p>When a user pastes a video url into the URL box on the website, a Django application using the youtube-dl library is used to fetch and download an MP3 file from youtube.&nbsp;<span style=\"font-size: 1.07rem; line-height: 1.5;\">This file is uploaded to the AWS cloud which the Raspberry Pi is able to view. When the button on the toilet is pressed down as the handle is flushed, the Raspberry Pi downloads the new audio file from AWS and stores it locally. It then signals through a serial connection to the Arduino, which is used with a shield to drive the 5050SMD led strip. Once a set amount of time is up, the song is stopped automatically with the lights, and the system is ready to run again.</span></p>"
@@ -1204,17 +1204,17 @@
           "_name": "menu",
           "_anchor": "menu-x",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#28324e",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1222,7 +1222,7 @@
               "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -1298,17 +1298,17 @@
           "_name": "menu",
           "_anchor": "menu-14",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#28324e",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1316,7 +1316,7 @@
               "src": "@PROJECT_PATH@/assets/images/logoanimatedbl.gif",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -1341,23 +1341,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-15",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "Android Themes",
           "text": "<p>How to create a simple app template that supports dynamic theme switching</p>",
@@ -1378,10 +1378,10 @@
           "_name": "header3",
           "_anchor": "header3-16",
           "_params": {
+            "showMeta": true,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": true
+            "bgColor": "#fff"
           },
           "title": "CREATING SETTINGS-BASED ANDROID THEMES",
           "meta": "By Elijah Bosley, posted June 4th, 2016"
@@ -1474,17 +1474,17 @@
           "_name": "menu",
           "_anchor": "menu-1c",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#28324e",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1517,23 +1517,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-1d",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "Resume",
           "text": "<p>Click the links below to view or download my resume.</p>",
@@ -1552,26 +1552,26 @@
           },
           "_anchor": "features6-1e",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "2",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": false,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -1725,17 +1725,17 @@
           "_name": "menu",
           "_anchor": "menu-1f",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#28324e",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -1772,23 +1772,23 @@
           "_name": "header5",
           "_anchor": "header5-1g",
           "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
             "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/dsc-1-2000x1338.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.3",
             "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true
+            "overlayOpacity": "0.3"
           },
           "title": "Arduino LED Controller",
           "text": "Full screen intro with color background.<br>Buttons, text and title are aligned to the left.",
@@ -1806,10 +1806,10 @@
           "_name": "header3",
           "_anchor": "header3-1h",
           "_params": {
+            "showMeta": false,
             "paddingTop": "4",
             "paddingBottom": "0",
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "<p><span style=\"color: inherit; font-size: 3rem; letter-spacing: -1px; line-height: 1.1;\">Software Based Lighting for Desktop PCs</span><br></p>",
           "meta": "By Elijah Bosley posted May 20th, 2015"
@@ -1834,10 +1834,10 @@
           "_name": "image2",
           "_anchor": "image2-1k",
           "_params": {
+            "showText": true,
             "paddingTop": "0",
             "paddingBottom": "0",
-            "bgColor": "#fff",
-            "showText": true
+            "bgColor": "#fff"
           },
           "media": {
             "image": {
@@ -1867,10 +1867,10 @@
           "_name": "header3",
           "_anchor": "header3-1l",
           "_params": {
+            "showMeta": false,
             "paddingTop": "3",
             "paddingBottom": "0",
-            "bgColor": "#fff",
-            "showMeta": false
+            "bgColor": "#fff"
           },
           "title": "The Software",
           "meta": "By John Smith posted July 20, 2016"
@@ -1895,10 +1895,10 @@
           "_name": "video2",
           "_anchor": "video2-1n",
           "_params": {
+            "showText": false,
             "paddingTop": "0",
             "paddingBottom": 4,
-            "bgColor": "#fff",
-            "showText": false
+            "bgColor": "#fff"
           },
           "media": {
             "image": {
@@ -1980,17 +1980,17 @@
           "_name": "menu",
           "_anchor": "menu-1o",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
             "bgColor": "#28324e",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -2023,23 +2023,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-1p",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
-            "bgColor": "#F2F2F2",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": true,
-            "showButton": true
+            "overlayOpacity": 0.5
           },
           "title": "Arduino Door Unlock System",
           "text": "",
@@ -2070,6 +2070,8 @@
           "_name": "slider2",
           "_params": {
             "autoplay": true,
+            "showBullets": true,
+            "bgColor": "#fff",
             "timeout": 5,
             "paddingTop": "0",
             "paddingBottom": 4,
@@ -2102,9 +2104,7 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
-            ],
-            "bgColor": "#fff",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider2-1r"
         }
