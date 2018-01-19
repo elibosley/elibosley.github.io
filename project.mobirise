@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Elijah Bosley - Mobirise 3",
-    "currentPage": "android_themes.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,10 +22,18 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 64,
-    "versionPublish": "4.3.2",
+    "uniqCompNum": 65,
+    "versionPublish": "4.6.2",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "http://elijahbosley.com",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "",
+    "noImageResize": "",
+    "sitemapSwitcher": "on",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-81188811-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-81188811-1');\r\n</script>"
   },
   "pages": {
     "index.html": {
@@ -189,11 +197,10 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/img-1400x1866.jpg",
+              "src": "@PROJECT_PATH@/assets/images/20171112-141719-1399x1399.jpg",
               "link": "",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -208,7 +215,7 @@
             }
           },
           "title": "About Me",
-          "text": "Hi! My name is Elijah Bosley and I'm a third year studyingcomputer science at the University of Virginia. I enjoy creating cool projects and building things using awesome new technologies.<br><br>Some of my hobbies include ballroom dancing, hiking, and caving.",
+          "text": "Hi! My name is Elijah Bosley and I'm a third year studying computer science at the University of Virginia. I enjoy creating cool projects and building things using awesome new technologies.<br><br>Some of my hobbies include ballroom dancing, hiking, and caving.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -603,7 +610,8 @@
     "text-clock.html": {
       "settings": {
         "title": "Android Text Clock",
-        "meta_descr": "A Text Clock Widget For Android"
+        "meta_descr": "A Text Clock Widget For Android",
+        "order": 2
       },
       "components": [
         {
@@ -795,7 +803,8 @@
     "smart-toilet.html": {
       "settings": {
         "title": "FlushedToLearn",
-        "meta_descr": "A Smart Toilet Project, uses a Raspberry Pi, Arduino, Leds, and a Bluetooth speaker to play songs when a toilet is flushed."
+        "meta_descr": "A Smart Toilet Project, uses a Raspberry Pi, Arduino, Leds, and a Bluetooth speaker to play songs when a toilet is flushed.",
+        "order": 3
       },
       "components": [
         {
@@ -1146,7 +1155,8 @@
     "desktop.html": {
       "settings": {
         "title": "Watercooled Desktop Computer",
-        "meta_descr": "For my Senior Project in High School, I built a watercooled computer."
+        "meta_descr": "For my Senior Project in High School, I built a watercooled computer.",
+        "order": 4
       },
       "components": [
         {
@@ -1240,7 +1250,8 @@
     "android_themes.html": {
       "settings": {
         "title": "Android Theming",
-        "meta_descr": "An application designed to help get started on theming Android applications easily and efficiently."
+        "meta_descr": "An application designed to help get started on theming Android applications easily and efficiently.",
+        "order": 5
       },
       "components": [
         {
@@ -1416,7 +1427,8 @@
     "resume.html": {
       "settings": {
         "title": "My Resume",
-        "meta_descr": "Elijah Bosley Resumes"
+        "meta_descr": "Elijah Bosley Resumes",
+        "order": 6
       },
       "components": [
         {
@@ -1667,7 +1679,8 @@
     "ledcontroller.html": {
       "settings": {
         "title": "SMD Led Controller",
-        "meta_descr": "Light Controller featuring a GUI and custom software to control LED strips"
+        "meta_descr": "Light Controller featuring a GUI and custom software to control LED strips",
+        "order": 7
       },
       "components": [
         {
@@ -1922,7 +1935,8 @@
     "doorlock.html": {
       "settings": {
         "title": "Arduino Door Lock",
-        "meta_descr": "A door unlocking system using an NFC shield and MiFare cards."
+        "meta_descr": "A door unlocking system using an NFC shield and MiFare cards.",
+        "order": 8
       },
       "components": [
         {
