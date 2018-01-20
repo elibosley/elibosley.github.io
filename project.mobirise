@@ -16,7 +16,7 @@
         "subtitleFont": "Lora",
         "textFont": "Raleway",
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": true,
+        "isAnimatedOnScroll": false,
         "isScrollToTopButton": true,
         "isRtl": false
       }
@@ -61,13 +61,15 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.8rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "0.866rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -108,8 +110,12 @@
             "collapsed": true,
             "transparent": true,
             "bgColor": "#28324e",
-            "fontSize": 0.75,
-            "fontName": {},
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
@@ -158,8 +164,13 @@
             "overlayOpacity": 0.5
           },
           "title": "Elijah Bosley",
-          "text": "<br><br>Scroll down to learn more about what I do!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"resume.html\" data-toolbar=\"-mbrBtnMove\">My Resume</a> "
+          "text": "<br><br>Welcome to my website, scroll down to learn more.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"resume.html\" data-toolbar=\"-mbrBtnMove\">My Resume</a> ",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "46px"
+            }
+          }
         },
         {
           "_tags": [
@@ -676,8 +687,12 @@
             "collapsed": true,
             "transparent": true,
             "bgColor": "#28324e",
-            "fontSize": 0.75,
-            "fontName": {},
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
@@ -869,8 +884,12 @@
             "collapsed": true,
             "transparent": true,
             "bgColor": "#28324e",
-            "fontSize": 0.75,
-            "fontName": {},
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
@@ -1221,8 +1240,12 @@
             "collapsed": true,
             "transparent": true,
             "bgColor": "#28324e",
-            "fontSize": 0.75,
-            "fontName": {},
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
@@ -1316,8 +1339,12 @@
             "collapsed": true,
             "transparent": true,
             "bgColor": "#28324e",
-            "fontSize": 0.75,
-            "fontName": {},
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
@@ -1493,8 +1520,12 @@
             "collapsed": true,
             "transparent": true,
             "bgColor": "#28324e",
-            "fontSize": 0.75,
-            "fontName": {},
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
@@ -1745,8 +1776,12 @@
             "collapsed": true,
             "transparent": true,
             "bgColor": "#28324e",
-            "fontSize": 0.75,
-            "fontName": {},
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
@@ -2001,8 +2036,12 @@
             "collapsed": true,
             "transparent": true,
             "bgColor": "#28324e",
-            "fontSize": 0.75,
-            "fontName": {},
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
