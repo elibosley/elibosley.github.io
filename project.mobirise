@@ -163,8 +163,8 @@
             "overlayColor": "#000",
             "overlayOpacity": 0.5
           },
-          "title": "Elijah Bosley",
-          "text": "<br><br>Welcome to my website, scroll down to learn more.",
+          "title": "Elijah Bosley<br><br><br><br>",
+          "text": "",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"resume.html\" data-toolbar=\"-mbrBtnMove\">My Resume</a> ",
           "_styles": {
             ".mbr-section-title": {
