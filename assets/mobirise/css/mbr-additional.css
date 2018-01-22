@@ -489,6 +489,7 @@ h6,
   color: #fff;
 }
 
+
 #menu-c .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -505,13 +506,14 @@ h6,
 #menu-c .link,
 #menu-c .dropdown-item {
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 #menu-c .link {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 #menu-c .dropdown-item,
 #menu-c .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 0.866rem;
 }
 #menu-c .link:hover,
 #menu-c .dropdown-item:hover,
@@ -561,6 +563,7 @@ h6,
 #header2-m .btn {
   font-size: 18px;
 }
+
 #menu-n .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -577,13 +580,14 @@ h6,
 #menu-n .link,
 #menu-n .dropdown-item {
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 #menu-n .link {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 #menu-n .dropdown-item,
 #menu-n .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 0.866rem;
 }
 #menu-n .link:hover,
 #menu-n .dropdown-item:hover,
@@ -647,67 +651,7 @@ h6,
 #content5-v P {
   color: #000000;
 }
-#menu-x .hide-buttons .nav-btn {
-  display: none !important;
-}
-#menu-x .navbar-caption {
-  color: #ffffff;
-}
-#menu-x .navbar-toggler {
-  color: #ffffff;
-}
-#menu-x .close-icon::before,
-#menu-x .close-icon::after {
-  background-color: #ffffff;
-}
-#menu-x .link,
-#menu-x .dropdown-item {
-  color: #ffffff;
-}
-#menu-x .link {
-  font-size: 0.75rem;
-}
-#menu-x .dropdown-item,
-#menu-x .nav-dropdown-sm .link {
-  font-size: 0.812rem;
-}
-#menu-x .link:hover,
-#menu-x .dropdown-item:hover,
-#menu-x .link:focus,
-#menu-x .dropdown-item:focus {
-  color: #f28281;
-}
-#menu-x .link[aria-expanded="true"],
-#menu-x .dropdown-menu {
-  background: #171c2c;
-}
-#menu-x .nav-dropdown-sm .link:focus,
-#menu-x .nav-dropdown-sm .link:hover,
-#menu-x .nav-dropdown-sm .dropdown-item:focus,
-#menu-x .nav-dropdown-sm .dropdown-item:hover {
-  background: #232c44!important;
-}
-#menu-x .navbar,
-#menu-x .nav-dropdown-sm,
-#menu-x .nav-dropdown-sm .link[aria-expanded="true"],
-#menu-x .nav-dropdown-sm .dropdown-menu {
-  background: #28324e;
-}
-#menu-x .bg-color.transparent .link {
-  color: #ffffff;
-  transition: none;
-}
-#menu-x .bg-color.transparent.opened .link {
-  transition: color 0.2s ease-in-out;
-}
-#menu-x .bg-color.transparent.opened .link:hover,
-#menu-x .bg-color.transparent.opened .link:focus {
-  color: #f28281;
-}
-#menu-x .link[aria-expanded="true"],
-#menu-x .dropdown-item[aria-expanded="true"] {
-  color: #f28281!important;
-}
+
 
 
 #menu-14 .hide-buttons .nav-btn {
@@ -726,13 +670,14 @@ h6,
 #menu-14 .link,
 #menu-14 .dropdown-item {
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 #menu-14 .link {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 #menu-14 .dropdown-item,
 #menu-14 .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 0.866rem;
 }
 #menu-14 .link:hover,
 #menu-14 .dropdown-item:hover,
@@ -790,6 +735,7 @@ h6,
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
 }
+
 #menu-1c .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -806,13 +752,14 @@ h6,
 #menu-1c .link,
 #menu-1c .dropdown-item {
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 #menu-1c .link {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 #menu-1c .dropdown-item,
 #menu-1c .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 0.866rem;
 }
 #menu-1c .link:hover,
 #menu-1c .dropdown-item:hover,
@@ -858,6 +805,7 @@ h6,
 #features6-1e .btn {
   font-size: 18px;
 }
+
 #menu-1f .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -874,13 +822,14 @@ h6,
 #menu-1f .link,
 #menu-1f .dropdown-item {
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 #menu-1f .link {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 #menu-1f .dropdown-item,
 #menu-1f .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 0.866rem;
 }
 #menu-1f .link:hover,
 #menu-1f .dropdown-item:hover,
@@ -933,6 +882,7 @@ h6,
 #header3-1l .mbr-section-subtitle {
   text-align: center;
 }
+
 #menu-1o .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -949,13 +899,14 @@ h6,
 #menu-1o .link,
 #menu-1o .dropdown-item {
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 #menu-1o .link {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 #menu-1o .dropdown-item,
 #menu-1o .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 0.866rem;
 }
 #menu-1o .link:hover,
 #menu-1o .dropdown-item:hover,
@@ -1000,5 +951,88 @@ h6,
 }
 #slider2-1r .mbr-section-title,
 #slider2-1r .mbr-section-lead {
+  color: #fff;
+}
+
+#menu-1t .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-1t .navbar-caption {
+  color: #ffffff;
+}
+#menu-1t .navbar-toggler {
+  color: #ffffff;
+}
+#menu-1t .close-icon::before,
+#menu-1t .close-icon::after {
+  background-color: #ffffff;
+}
+#menu-1t .link,
+#menu-1t .dropdown-item {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+#menu-1t .link {
+  font-size: 0.8rem;
+}
+#menu-1t .dropdown-item,
+#menu-1t .nav-dropdown-sm .link {
+  font-size: 0.866rem;
+}
+#menu-1t .link:hover,
+#menu-1t .dropdown-item:hover,
+#menu-1t .link:focus,
+#menu-1t .dropdown-item:focus {
+  color: #f28281;
+}
+#menu-1t .link[aria-expanded="true"],
+#menu-1t .dropdown-menu {
+  background: #171c2c;
+}
+#menu-1t .nav-dropdown-sm .link:focus,
+#menu-1t .nav-dropdown-sm .link:hover,
+#menu-1t .nav-dropdown-sm .dropdown-item:focus,
+#menu-1t .nav-dropdown-sm .dropdown-item:hover {
+  background: #232c44!important;
+}
+#menu-1t .navbar,
+#menu-1t .nav-dropdown-sm,
+#menu-1t .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-1t .nav-dropdown-sm .dropdown-menu {
+  background: #28324e;
+}
+#menu-1t .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#menu-1t .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-1t .bg-color.transparent.opened .link:hover,
+#menu-1t .bg-color.transparent.opened .link:focus {
+  color: #f28281;
+}
+#menu-1t .link[aria-expanded="true"],
+#menu-1t .dropdown-item[aria-expanded="true"] {
+  color: #f28281!important;
+}
+#header3-1v .mbr-section-title,
+#header3-1v .mbr-section-subtitle {
+  text-align: center;
+}
+#slider2-1z .mbr-section-title,
+#slider2-1z .mbr-section-lead {
+  color: #fff;
+}
+#slider2-2k .mbr-section-title,
+#slider2-2k .mbr-section-lead {
+  color: #fff;
+}
+#slider2-2b .mbr-section-title,
+#slider2-2b .mbr-section-lead {
+  color: #fff;
+}
+#slider2-2d .mbr-section-title,
+#slider2-2d .mbr-section-lead {
   color: #fff;
 }
