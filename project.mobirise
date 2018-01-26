@@ -429,7 +429,7 @@
           "title1": "Watercooled Desktop",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Watercooled Computer Senior Project<br>",
-          "button1": "<a data-app-btn=\"true\" href=\"page8.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"desktop.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/capture-600x399.png",
